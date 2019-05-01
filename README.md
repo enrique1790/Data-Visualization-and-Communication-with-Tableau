@@ -8,7 +8,7 @@
 5. Train your Skepticism Muscles (When noticing an abnormal patterns Beware of Entry errors they are very common) 
 6. And Seek Details (Real-world situations are messy your data will be also)
 7. Cherish Precision (It allows the most creative & innovative ideas to become reality)
-8. Best Practices do NOT equal Common Practices ( It's beneficial to known advanced techniques common practice might not be powerful enough to answer or solve the question)
+8. Best Practices do NOT equal Common Practices ( It's beneficial to known advanced techniques common practice might not be powerful enough to answer or solve the business problem)
 9. Expectations Matter! (No matter how good your idea or how cool your analysis is teammates and stakeholder hold different views and will require convincing. If your results are contrary to what they expect your hardwork can be stopped in it's tracks)
 10. Put Yourself in Others People's Shoes ( What do parterns and Stakeholders think & feel so you may craft your solutions and recommendations more sucessful.)
 
