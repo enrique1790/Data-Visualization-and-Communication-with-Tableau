@@ -14,7 +14,7 @@ Tableau
 ### Goal # 3  Determine whether stakehorlders agree about problem to be solved 
 *be prepared they will have different views from the person who assign you the project*
 
-**Summarize: Throughout your project, keep talking to people, keep asking questions, keep listening and keep thinking about how you can turn what people say into variables you can test. Stakeholders are the best domain experts in the specific problem you are trying to solve. So Take advantage of their business knowledge in your data analysis.**
+**Summarize:** Throughout your project, keep talking to people, keep asking questions, keep listening and keep thinking about how you can turn what people say into variables you can test. Stakeholders are the best domain experts in the specific problem you are trying to solve. So Take advantage of their business knowledge in your data analysis.
 
 ## Stakeholder Expectations Matter
 
