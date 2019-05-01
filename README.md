@@ -19,11 +19,9 @@ Website Link:
 * Relevant
 * Time-bound
 
-**Specific Mesureable:**
+**Specific Mesureable:** *Increase the number of returning visitors on a month-by-month basis by 15% compared to the same month last year.*
 * How should my business metric change if my recommendations are put into action, and by how much?
 * Initial Goal: Increase the number of returning vistors to the website
-
-*Increase the number of returning visitors on a month-by-month basis by 15% compared to the same month last year.*
 
 **Relevant:**
 *Determine the website changes that will most efficiently increase revenues by 15% on a month-by-month basis compared to the same month last year.*
