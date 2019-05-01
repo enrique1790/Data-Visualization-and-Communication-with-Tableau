@@ -1,5 +1,15 @@
 # Data-Visualization-and-Communication-with-Tableau
-Tableau
+
+## Asking The Right Questions
+*"When I recruit for Business Intelligence/Business Analysis roles, it is important that the students have the following coursework/knowledge..."*
+
+**Top 3 responses:**
+1. Communication skills
+2. SQL and query skills
+3. Basic analytics
+
+Website Link:
+
 
 ## Listening to Stakeholders
 
