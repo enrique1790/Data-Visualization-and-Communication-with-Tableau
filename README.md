@@ -12,12 +12,26 @@ Website Link:
 
 ## Smart Analysis
 
-### S.M.A.R.T.
+### S.M.A.R.T. Goals
 * Specific
 * Measurable
 * Attainable
 * Relevant
 * Time-bound
+
+**Specific Mesureable:**
+* How should my business metric change if my recommendations are put into action, and by how much?
+* Initial Goal: Increase the number of returning vistors to the website
+**Increase the number of returning visitors on a month-by-month basis by 15% compared to the same month last year.**
+
+**Relevant:**
+*Determine the website changes that will most efficiently increase revenues by 15% on a month-by-month basis compared to the same month last year.*
+
+**Time-bound:**
+*To goal of the project is to, within 2 months, determine the website changes that will most efficiently increase avenues by 15% on a month-by-month basis compared to the same month last year.*
+
+**Attainable:**
+*What data do you have available? How far along is your company in embracing Big Data Culture?*
 
 ## Listening to Stakeholders
 
