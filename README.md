@@ -63,7 +63,7 @@ Website Link:
 
 ### Four Styles of Analytics 
 1. Descriptive analytics : Which answers the questions what happens or what is happening. (Bar graphs, Pie charts, etc)
-2. Diagnostic analytics: Why things are happening? looking more for root cases.(Fraud detection)
+2. Diagnostic analytics: Why things are happening? looking more for root cases. (Fraud detection)
 3. Predictive analytics: What is going to happen? looking more at a trajectory of understanding why things are happening, and what is happening to develop that trajectory of the likely scenarios in the future. (Regression & predictive models)
 4. Prescriptive analytics: The system is actually giving a recommendations. (Machine learning, Big Data Techniques, etc)
 
