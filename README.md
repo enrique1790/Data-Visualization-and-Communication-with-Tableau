@@ -20,10 +20,7 @@
 2. SQL and query skills
 3. Basic analytics
 
-Website Link:
-
 ## Smart Analysis
-
 ### S.M.A.R.T. Goals
 * Specific
 * Measurable
