@@ -5,8 +5,8 @@ Tableau
 
 ### Goal #1: Identify Your Key Stakeholders 
 *Those who will determine if your project suceeds or fails*
-Link 1:
-Link 2:
+1. Link:
+2. Link:
 
 ### Goal # 2 Identify Independent Variables To Test 
 *people who are going to be highly impacted with your project.*
