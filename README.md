@@ -48,8 +48,8 @@ Website Link:
 
 ### Goal #1: Identify Your Key Stakeholders 
 *Those who determine if your project suceeds or fails*
-1. Link:
-2. Link:
+1. [Link:](https://hbr.org/2014/03/five-questions-to-identify-key-stakeholders/)
+2. [Link:](http://expertbusinessanalyst.com/stakeholder-analysis-and-management/)
 
 ### Goal # 2 Identify Independent Variables To Test 
 *people who are going to be highly impacted with your project will usually have interesting industry insight.*
