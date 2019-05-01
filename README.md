@@ -25,4 +25,4 @@ Summarize: Throughout your project, keep talking to people, keep asking question
 *Advance analytic solutions tend to be plagued by a lack of experience.
 
 ### What should a data anlyst do if the best way to solve the business problem is to use a type of data analysis that is higher up in the continuum than the company culture is used to?
-*You could suggest forming two separate data analysis teams one for traditional business analytics the company is used to, and another for newer analyics that don't yet fit into the company's culture. The teams would function under different rules. Pay attention to what kinds of analytics tool and results they are willing to work with.
+*You could suggest forming two separate data analysis teams one for traditional business analytics the company is used to, and another for newer analyics that don't yet fit into the company's culture. The teams would function under different rules. Pay attention to what kinds of analytics tool and results they are willing to work with.*
