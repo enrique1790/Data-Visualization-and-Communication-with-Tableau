@@ -29,3 +29,13 @@ Tableau
 
 ### What should a data anlyst do if the best way to solve the business problem is to use a type of data analysis that is higher up in the continuum than the company culture is used to?
 *You could suggest forming two separate data analysis teams one for traditional business analytics the company is used to, and another for newer analyics that don't yet fit into the company's culture. The teams would function under different rules. Pay attention to what kinds of analytics tool and results they are willing to work with.*
+
+## Using SPAPs to strucutre your Thinking
+
+### Having a Structured Data Analysis Plan
+
+1. Stay on task
+2. Identify gaps in thinking
+3. Explain your thinking to thers
+4. Report your progress 
+5. Can work as a team
