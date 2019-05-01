@@ -47,25 +47,25 @@ Website Link:
 ## Listening to Stakeholders
 
 ### Goal #1: Identify Your Key Stakeholders 
-*Those who will determine if your project suceeds or fails*
+*Those who determine if your project suceeds or fails*
 1. Link:
 2. Link:
 
 ### Goal # 2 Identify Independent Variables To Test 
-*people who are going to be highly impacted with your project.*
+*people who are going to be highly impacted with your project will usually have interesting industry insight.*
 
 ### Goal # 3  Determine whether stakehorlders agree about problem to be solved 
-*be prepared they will have different views from the person who assign you the project*
+*Be prepared they will have different views from the person who assign you the project*
 
 **Summarize:** Throughout your project, keep talking to people, keep asking questions, keep listening and keep thinking about how you can turn what people say into variables you can test. Stakeholders are the best domain experts in the specific problem you are trying to solve. So Take advantage of their business knowledge in your data analysis.
 
 ## Stakeholder Expectations Matter
 
 ### Four Styles of Analytics 
-1. descriptive analytics : which answers the questions what happens or what is happening.
-2. diagnostic analytics: why things are happening, looking for roout cases.
-3. predictive analytics: what is going to happen? looking more at a trajectory of understanding why things are happening and what is happening to  develop that trajectory of the likely scenarios in the future.
-4. prescriptive analytics: in which the system is actually giving recommendations.
+1. Descriptive analytics : Which answers the questions what happens or what is happening. (Bar graphs, Pie charts, etc)
+2. Diagnostic analytics: Why things are happening? looking more for root cases.(Fraud detection)
+3. Predictive analytics: What is going to happen? looking more at a trajectory of understanding why things are happening, and what is happening to develop that trajectory of the likely scenarios in the future. (Regression & predictive models)
+4. Prescriptive analytics: The system is actually giving a recommendations. (Machine learning, Big Data Techniques, etc)
 
 ### Why don't more companies move up higher on the continuum? 
 *Advance analytic solutions tend to be plagued by a lack of experience.*
