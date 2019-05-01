@@ -10,6 +10,14 @@
 
 Website Link:
 
+## Smart Analysis
+
+###S.M.A.R.T.
+***Specific***
+***Measurable***
+***Attainable***
+***Relevant***
+***Time-bound***
 
 ## Listening to Stakeholders
 
