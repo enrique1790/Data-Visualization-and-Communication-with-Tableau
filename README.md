@@ -1,5 +1,17 @@
 # Data-Visualization-and-Communication-with-Tableau
 
+## 10 Tips for Becoming a Data Analyst
+1. Ask Questions, Nourish Curiosity, and Embrace the Unknown
+2. Start Thinking about everything you see as a Dependent or Independent variable
+3. Start Exploring the Advantages of Continious VS Discrete Variables
+4. Listen And Contribute (Data analysis projects are almost always collaborations!)
+5. Train your Skepticism Muscles (When noticing an abnormal patterns Beware of Entry errors they are very common) 
+6. And Seek Details (Real-world situations are messy your data will be also)
+7. Cherish Precision (It allows the most creative & innovative ideas to become reality)
+8. Best Practices do NOT equal Common Practices ( It's beneficial to known advanced techniques common practice might not be powerful enough to answer or solve the question)
+9. Expectations Matter! (No matter how good your idea or how cool your analysis is teammates and stakeholder hold different views and will require convincing. If your results are contrary to what they expect your hardwork can be stopped in it's tracks)
+10. Put Yourself in Others People's Shoes ( What do parterns and Stakeholders think & feel so you may craft your solutions and recommendations more sucessful.)
+
 ## Asking The Right Questions
 *"When I recruit for Business Intelligence/Business Analysis roles, it is important that the students have the following coursework/knowledge..."*
 
