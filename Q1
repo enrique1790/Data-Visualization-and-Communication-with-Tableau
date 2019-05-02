@@ -1,0 +1,78 @@
+# Quiz 1
+
+1.True/False: As documented in the study: “The State of Business Intelligence and Business Analytics in Academia 2012,” recruiters from technical companies collectively rank SQL skills as the coursework/knowledge they look for most when recruiting for business intelligence/business analyst roles.
+True (actually it's False)
+
+2.True/False: Everybody in the analytics world agrees that your job as a data analyst is to ask and answer the one, true, right question.
+False
+
+3. In this course, we used the S.M.A.R.T acronym to refer to goals that are:
+Specific, Measureable, Attainable, Relevant, and Time-bound
+
+4.Which of the following steps of the analytics project life cycle should you complete first?
+Defining a SMART GOAL
+
+5.True/False: Including the business metric that you will use to assess success in your business analytics project will make your project goal sufficiently specific to ensure success.
+False
+
+6.Which of the SMART criteria are NOT met by this data analytics project goal (pay close attention to whether the options are words the SMART acronym stands for)?
+The goal of this project is to, within 45 days, use the inventory, production, and customer service databases from national manufacturing plants to reduce the number of polo shirts returned for manufacturing defects.
+Time-Bound (Try instead specific)
+
+7.True/False: Stakeholders are those individuals who are influenced by the outcome of your project or who might have a strong interest in it.
+True
+
+8.True/False: “Elicitation” refers to the process of writing a document that lists all the requirements and objectives of a data analysis project.
+True (actually it's false)
+Although the result of elicitation might be a document that lists all the requirements and objectives of a data analysis project, business analysts will be responsible for gathering the information that allows those objectives to be defined. That gathering will require, as least in part, drawing out that information directly from your stakeholders. For more information see video Listening to Stakeholders during Elicitation or
+http://www.bridging-the-gap.com/requirements-gathering-vs-elicitation/
+
+9. You are an analyst at a bank. Your bank ran a short-term experiment in which they provided credit cards to a wider range of applicants then normal, including applicants whose applications would typically be rejected due to their troubled financial profiles. Your job is to model the data from this experiment to create a decision-making algorithm that will help the bank decide how to respond to future credit card applications more profitably.
+The following parties are NOT likely to be key stakeholder(s) in your project (select all that apply):
+
+the bank’s creditors, the bank, itself (Individuals who applied for credit cards in the past, but were denied, Individuals who will apply for credit cards in the future.)
+
+10. At the beginning of any data analysis project, you should meet with your key stakeholders to understand:
+all of the above.
+
+11. According to Doug Laney, VP of Information Innovation and Strategy at Gartner, why don’t more companies move higher on the analytics continuum? (check all that apply)
+(Inertia (comfort with the way businesses did things in the past, Decision-makers view analytic analyses as “black boxes” they don’t understand)
+
+12.True/False: When you are designing your business analysis plan, you should treat your business metric as the independent variable in your data analysis.
+False
+
+13. SPAPs should be altered after you begin a data analysis.
+False. (TRUE)
+-This is an important concept to remember. SPAPs should adapt to new information, and be revised to add new hypotheses as they arise or cross out old ones you know are no longer relevant. See video Using SPAPs to Create Insights for more information
+
+14. You should make charts to assess the items you listed in which layers of the independent variables in your SPAP?
+
+Layer 2 (As many layers and sub-layers as needed to cover all the issues you want to be sure you document or address)
+(not Layers 2 and 3 , or Layer 2, or layer 3 ) 
+
+15. The best charts for assessing the categories and subcategories listed in the intermediate layers of your SPAP include (select all that apply):
+(Bar charts, Line Charts, Scatter plots)
+
+
+## New Questions
+
+1. According to the data analytics company Gartner, the majority of companies reported the reason their big data projects failed is due to:
+Mostly organizational failures, but also some technical failures
+
+8. Elicitation sessions occur:
+After you have accepted an analysis job, and should continue throughout the life cycle of a data analysis project
+
+14. How many layers should there be in the “independent variables” section of your pyramid?
+As many layers and sub-layers as needed to cover all the issues you want to be sure you document or address
+
+11. What strategies were discussed as options for handling situations where achieving the SMART goal of a project requires a type of analysis the project lead and stakeholders are not open to? (check all that apply)
+
+Suggest implementing two analysis teams in parallel, one that implements the strategy the project lead and stakeholders have in mind, and another that implements the more innovative strategy. ;
+
+Show company executives or project directors examples of when a similar analysis brought significant value to another company. ;
+
+Show company executives or project directors prototypes of what kind of results the analysis would provide.
+
+
+12. The structured pyramid analysis plan (SPAP) framework requires you to do the following (check all that apply):
+Write down your S.M.A.R.T goal at the top of the pyramid
