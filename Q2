@@ -1,3 +1,4 @@
+## Questions
 1. Use the Dognition_aggregated_by_DogID data set for the quiz questions. Note that we use comma (,) to separate groups of thousands in numbers.
 How many unique human user IDs are there in the Dognition_aggregated_by_DogID data set?
 
@@ -28,3 +29,163 @@ How many unique human user IDs are there in the Dognition_aggregated_by_DogID da
 14. In the Dognition_aggregated_by_DogID data set, when looking at only dogs who completed 19 or less tests, which of the following is true about the relationship between inter-test intervals (ITIs) and number of tests completed? Click all that apply.
 
 15. In the Dognition_aggregated_by_DogID data set, when looking at only dogs who completed 7 or less tests, which of the following is true about the relationship between inter-test intervals (ITIs) and number of tests completed? Click all that apply
+
+## My hints for WEEK 2 Quiz
+I have gotten stuck in week 2 for a couple of days and I have been so frustrated by almost all the problems in the quiz. I want to share my hints with you guys who have the same feeling.
+Firstly, please clean the data according to the exercise, excluding dog ids with sign_in counts > 175.
+
+**To clean the data**
+
+1) unclick aggregate measures in analysis
+
+2) rows: sign_in_count (sum)
+
+3) drag dog ids into the marks card, detail
+
+4) filter: sign_in_count < 175
+
+5) select all the data, right click, then choose group
+
+6) a new group (dog id group 1 here) has been created
+
+7) put the new grouped dog id into filters from now on for the quiz
+
+**Problem 1** 
+
+1) rows: user id (count distinct)
+
+2) filter: remove grouped dog id
+
+3) make sure to click aggregate measures in analysis
+
+**Problem 2**
+
+1) columns: country, dimension, breed
+
+2) rows: total tests completed (sum), weight
+
+3) filter: state - 37
+
+4) make sure to unclick aggregate measures in analysis
+
+**Problem 3** 
+
+1) rows: sign in count(sum)
+
+2) filter: remove the grouped dog id this time, sign in count > 175
+
+3) view all data
+
+4) make sure to unclick aggregate measures in analysis
+
+**Problem 4**
+
+1) columns: dimension
+
+2) rows: total tests completed (avg)
+
+3) filter: dimension - exclude 0
+
+4) make sure to click aggregate measures in analysis
+
+**Problem 5** 
+
+1) columns: breed group
+
+2) rows: total tests completed (both avg and median)
+
+3) make sure to click aggregate measured in analysis
+
+**Problem 6** 
+
+1) columns: breed type
+
+2) total tests completed (median)
+
+3) make sure to click aggregate measures in analysis
+
+**Problem 7** 
+
+1) columns: breed type
+
+2) total tests completed (median)
+
+3) make sure to click aggregate measures in analysis
+
+**Problem 8**
+
+1) columns: breed type, dog fixed
+
+2) rows: total tests completed (avg)
+
+3) make sure to click aggregate measures in analysis
+
+**Problem 9** 
+
+1) columns: breed type, dog fixed
+
+2) rows: dna tested, total tests completed (avg)
+
+3) 1: tested/fixed 0: not tested/not fixed
+
+4) make sure to click aggregate measures in analysis
+
+**Problem 10** 
+
+1) columns: country
+
+2) rows: dog id (count distinct)
+
+3) show me column: choose map
+
+**Problem 11** 
+
+1) columns: state
+
+2) rows: user id (count distinct)
+
+3) filter: country - US
+
+4) order the columns from max to min
+
+5) make sure to click aggregate measures in analysis
+
+**Problem 12** 
+
+1) columns: state
+
+2) rows: total tests completed (median)
+
+3) filter: grouped dog id as shown in the clean data pattern, state: ME, NC, ND, SD, WY
+
+4) make sure to click aggregate measures in analysis
+
+**Problem 13** 
+
+please refer to the the reading material provided in week 2
+
+**Problem 14** 
+
+1) as above but set the filter: total tests completed < 19
+
+2) as above (15)
+
+**Problem 15**
+
+1) to get the chart:
+
+columns: total tests completed
+
+rows: median ITI, mean ITI (all avg measures)
+
+filter: total tests completed < 7
+
+unclick aggregate measures in analysis
+
+edit Axis: Fixed 0-10,000
+
+2) key points in the linear function:
+
+whether positive or negative: check the slope(the coefficient with median or mean ITI)
+
+significant: p < 0.05 non-significant: p > 0.05
