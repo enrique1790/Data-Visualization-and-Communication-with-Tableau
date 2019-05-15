@@ -189,3 +189,39 @@ edit Axis: Fixed 0-10,000
 whether positive or negative: check the slope(the coefficient with median or mean ITI)
 
 significant: p < 0.05 non-significant: p > 0.05
+
+## Practice Exercises for Week 2: Data Visualization in Tableau
+
+**Excercise 1**
+Columns:
+Rows: Sign in Count
+Filters: Dog ID (Group): Other "Other box is checked off"
+DetaiL: Dog ID
+Color: Dog ID (group)
+
+**Excercise 2**
+Columns:Breed Type
+Rows: Breed Type Median(Total Tests Complete)
+Filters: Dog ID (Group) : Other; Breed Type Select [Cross Breed, Mixed Breed/Other, Popular Hybrid, Pure Breed]
+
+**Excercise 3**
+Columns: Breed Group
+Rows: MEDIAN(Total Test Complete), CNTD(Dog ID)
+Filters: Dog ID (Group): Other, Breed Group [Herding, Hound, Non-Sporting, Sporting, Terrier, Toy, Working], Dog ID [Other)
+
+**Excercise 4**
+Columns: Country
+Rows: MEDIAN(Total Tets Complete) CNTD(Dog ID)
+Filters: Dog ID(group): Other [select other], CNTD(Dog ID)[ 30, 10,262], Country [AU, CA, DE, DK, FR, GB, NO, NZ, US]
+Color: Country
+
+**Excercise 5**
+Columns: Total Tests Completed
+Rows: Mean ITI(minutes) MedianITI(minutes)
+Filters: Dog ID(group)[Other checked off]: Other, Total Tests Completed [1,19], Mean ITI(minutes)
+
+
+
+
+
+
