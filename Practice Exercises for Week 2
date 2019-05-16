@@ -7,6 +7,9 @@ Filters: Dog ID (Group): Other "Other box is checked off"
 DetaiL: Dog ID
 Color: Dog ID (group)
 
+## Comments:
+Dog IDs with Sign in Count of above 175 are grouped and filtered out to exclude these outliers.
+
 ### Notes:
 I was able to get around this issue by putting sign in count on rows, Dog ID on detail, and then right clicking on the axis --> edit axis --> fixed --> select 0 - 175.
 once the axis is restricted then I manually drag selected (hold left click) data and made a group. Then i could put this dog id group in the filter card and it works.
@@ -15,11 +18,19 @@ once the axis is restricted then I manually drag selected (hold left click) data
 Columns:Breed Type
 Rows: Breed Type Median(Total Tests Complete)
 Filters: Dog ID (Group) : Other; Breed Type Select [Cross Breed, Mixed Breed/Other, Popular Hybrid, Pure Breed]
+## Comments:
+Median Total Tests Completed for all Breed Types is 7. Is this correct?
 
 **Excercise 3**
 Columns: Breed Group
 Rows: MEDIAN(Total Test Complete), CNTD(Dog ID)
 Filters: Dog ID (Group): Other, Breed Group [Herding, Hound, Non-Sporting, Sporting, Terrier, Toy, Working], Dog ID [Other)
+
+## Comments:
+This bar chart shows the median Total Tests Completed for DNA Tested broken down by Dog Fixed.
+The median Total Tests Completed is highest for dogs which are DNA tested but not spayed/neutered, 
+which supports the hypothesis that owners which intend to breed their digs may be more interested 
+in the personality of their dogs than other owners.
 
 **Excercise 4**
 Columns: Country
@@ -27,7 +38,18 @@ Rows: MEDIAN(Total Tets Complete) CNTD(Dog ID)
 Filters: Dog ID(group): Other [select other], CNTD(Dog ID)[ 30, 10,262], Country [AU, CA, DE, DK, FR, GB, NO, NZ, US]
 Color: Country
 
+## Comments:
+The charts show the median of Total Tests Completed and distinct count of Dog ID for each Country. 
+The distinct count of Dog ID filter includes values greater than or equal to 30. 
+Out of these countries, Germany, Denmark, Norway and New Zealand have higher median Total Tests Completed than the US.
+
+
 **Excercise 5**
 Columns: Total Tests Completed
 Rows: Mean ITI(minutes) MedianITI(minutes)
 Filters: Dog ID(group)[Other checked off]: Other, Total Tests Completed [1,19], Mean ITI(minutes)
+
+## Comments:
+The trend lines or Mean ITI and Median ITI go in opposite directions.
+The median is less affected by outliers, the Median ITI trend line supports the hypothesis that 
+customers who complete tests more quickly are more likely to complete more tests.
