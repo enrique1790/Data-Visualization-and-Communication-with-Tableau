@@ -1,4 +1,51 @@
-## Questions
+## Mentor Hints for Week 2 Graded Quiz
+Question 1
+Consider whether there are other ways to aggregate the variable you are examining that would be more 
+appropriate for answering this question.
+
+Question 2
+The “View Data” function in the Tableau workspace might be helpful for answering this question.
+
+Question 3
+The “View Data” function in the Tableau workspace might be helpful for answering this question.
+
+Question 4
+Make sure you have filtered out the group of dogs whose data we know is not real (see Exercise 1) 
+and double-check that the type of aggregation you are using in your analysis is appropriate.
+
+Question 5
+Make sure the type of aggregation you are using in your analysis is appropriate.
+
+Question 6
+Please review Lesson 3 Let's Get Started to review how to arrive at the correct answer.
+
+Question 7
+Please review Lesson 3 Let's Get Started to review how to arrive at the correct answer.
+
+Question 8
+Please check that you are using the appropriate aggregation, and review Lesson 3
+Let's Get Started and the course Practice Exercises for information about how to arrive at the correct answer.
+
+Question 9
+Please review Lesson 3 Let's Get Started to review how to arrive at the correct answer.
+Question 10
+Check your filters, and make sure your aggregations are appropriate. 
+See Practice Exercise 4 for more information about how to make the graph.
+
+Question 11
+Make sure your aggregations are appropriate, and remember that you can hover over the state to see 
+the precise number of records in the tool tip.
+
+Question 13
+Please review video https://www.youtube.com/watch?v=o2q-L3auqW8
+
+Question 14
+Refer to Lesson 6 Line Graphs and Box Plots to review how to answer this type of question.
+
+Question 15
+Refer to Lesson 6 Line Graphs and Box Plots to review how to answer this type of question.
+
+## Quiz 2
 1. Use the Dognition_aggregated_by_DogID data set for the quiz questions. Note that we use comma (,) to separate groups of thousands in numbers.
 How many unique human user IDs are there in the Dognition_aggregated_by_DogID data set?
 
