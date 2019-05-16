@@ -11,8 +11,10 @@ Color: Dog ID (group)
 Dog IDs with Sign in Count of above 175 are grouped and filtered out to exclude these outliers.
 
 ### Notes:
-I was able to get around this issue by putting sign in count on rows, Dog ID on detail, and then right clicking on the axis --> edit axis --> fixed --> select 0 - 175.
-once the axis is restricted then I manually drag selected (hold left click) data and made a group. Then i could put this dog id group in the filter card and it works.
+I was able to get around this issue by putting sign in count on rows, Dog ID on detail, 
+and then right clicking on the axis --> edit axis --> fixed --> select 0 - 175.
+once the axis is restricted then I manually drag selected (hold left click) data and made a group. 
+Then i could put this dog id group in the filter card and it works.
 
 **Excercise 2**
 Columns:Breed Type
