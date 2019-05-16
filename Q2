@@ -84,7 +84,8 @@ How many unique human user IDs are there in the Dognition_aggregated_by_DogID da
 15. In the Dognition_aggregated_by_DogID data set, when looking at only dogs who completed 7 or less tests, which of the following is true about the relationship between inter-test intervals (ITIs) and number of tests completed? Click all that apply
 
 ## My hints for WEEK 2 Quiz
-I have gotten stuck in week 2 for a couple of days and I have been so frustrated by almost all the problems in the quiz. I want to share my hints with you guys who have the same feeling.
+I have gotten stuck in week 2 for a couple of days and I have been so frustrated by almost all the problems in the quiz. 
+I want to share my hints with you guys who have the same feeling.
 Firstly, please clean the data according to the exercise, excluding dog ids with sign_in counts > 175.
 
 **To clean the data**
