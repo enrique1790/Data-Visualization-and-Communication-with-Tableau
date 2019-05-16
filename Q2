@@ -199,6 +199,10 @@ Filters: Dog ID (Group): Other "Other box is checked off"
 DetaiL: Dog ID
 Color: Dog ID (group)
 
+### Notes:
+I was able to get around this issue by putting sign in count on rows, Dog ID on detail, and then right clicking on the axis --> edit axis --> fixed --> select 0 - 175.
+once the axis is restricted then I manually drag selected (hold left click) data and made a group. Then i could put this dog id group in the filter card and it works.
+
 **Excercise 2**
 Columns:Breed Type
 Rows: Breed Type Median(Total Tests Complete)
