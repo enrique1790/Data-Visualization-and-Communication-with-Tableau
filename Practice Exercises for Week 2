@@ -1,14 +1,18 @@
 ## Practice Exercises for Week 2
 
 **Excercise 1**
+# Summary
+Variables:Dog ID, User ID, Country, State, Sign in Count, Filter.
+Mark Down: Details, Text
+1) How many unique dogs are in the dataset (Indicated by the number of unique entires in Dog ID)?
+2) How many unique (human) users are in the dataset (indicated by the numgber of unique entries in User ID)?
+
+##Tableau
 Columns:
 Rows: Sign in Count
 Filters: Dog ID (Group): Other "Other box is checked off"
 DetaiL: Dog ID
 Color: Dog ID (group)
-
-1) How many unique dogs are in the dataset (Indicated by the number of unique entires in Dog ID)?
-2) How many unique (human) users are in the dataset (indicated by the numgber of unique entries in User ID)?
 
 ## Comments:
 Dog IDs with Sign in Count of above 175 are grouped and filtered out to exclude these outliers.
@@ -20,13 +24,26 @@ once the axis is restricted then I manually drag selected (hold left click) data
 Then i could put this dog id group in the filter card and it works.
 
 **Excercise 2**
+#Summary
+Variables: Total Tests Completed, Breed Type, Breed Group, Dimension. 
+Markdown:
+
+##Tableau
 Columns:Breed Type
 Rows: Breed Type Median(Total Tests Complete)
 Filters: Dog ID (Group) : Other; Breed Type Select [Cross Breed, Mixed Breed/Other, Popular Hybrid, Pure Breed]
+
 ## Comments:
 Median Total Tests Completed for all Breed Types is 7. Is this correct?
 
 **Excercise 3**
+#Summary
+Variables: DNA tested, Dog Fixed, Total Tests Completed, Breed Type, Dog Fixed, DNA Tested, Total Tests Completed
+Markdown:
+a) to confirm whether or not the dog is pure-bred?
+b) because they are really interested in finding out more about where their dog came from?
+
+##Tableau
 Columns: Breed Group
 Rows: MEDIAN(Total Test Complete), CNTD(Dog ID)
 Filters: Dog ID (Group): Other, Breed Group [Herding, Hound, Non-Sporting, Sporting, Terrier, Toy, Working], Dog ID [Other)
@@ -38,6 +55,13 @@ which supports the hypothesis that owners which intend to breed their digs may b
 in the personality of their dogs than other owners.
 
 **Excercise 4**
+#Summary
+Variables: Dog ID, Country, Total Tets Completed, Show Me 
+Markdown:
+a) whether particular countries and/or states within the US have more Dognition customers than others?
+b) whether customers within specific geographic regions are more likely to complete more tests?
+
+##Tableau
 Columns: Country
 Rows: MEDIAN(Total Tets Complete) CNTD(Dog ID)
 Filters: Dog ID(group): Other [select other], CNTD(Dog ID)[ 30, 10,262], Country [AU, CA, DE, DK, FR, GB, NO, NZ, US]
@@ -50,6 +74,13 @@ Out of these countries, Germany, Denmark, Norway and New Zealand have higher med
 
 
 **Excercise 5**
+# Summary
+Variables: Median ITI, Mean ITI, Dog ID, Total Tests Completed
+a) We will throw out some data from dogs who completed 20 or more tests
+b) Our analyses will be biased towards dogs who do not complete all the Dognition Assessments tests, which might not translate
+well do dogs who do finish the Dogntion Assessment tets.
+
+##Tableau
 Columns: Total Tests Completed
 Rows: Mean ITI(minutes) MedianITI(minutes)
 Filters: Dog ID(group)[Other checked off]: Other, Total Tests Completed [1,19], Mean ITI(minutes)
