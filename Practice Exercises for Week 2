@@ -27,6 +27,9 @@ Then i could put this dog id group in the filter card and it works.
 #Summary
 Variables: Total Tests Completed, Breed Type, Breed Group, Dimension. 
 Markdown:
+a) Identify the features of dogs or their ownwers that have correlated with increased completion socres in the past.
+b) We will focus on examining features of dogs that correlate with differences in the number of tests the dogs complete.
+c) How aspects of dogs personalities and breed types affect completion metrics
 
 ##Tableau
 Columns:Breed Type
@@ -71,7 +74,6 @@ Color: Country
 The charts show the median of Total Tests Completed and distinct count of Dog ID for each Country. 
 The distinct count of Dog ID filter includes values greater than or equal to 30. 
 Out of these countries, Germany, Denmark, Norway and New Zealand have higher median Total Tests Completed than the US.
-
 
 **Excercise 5**
 # Summary
