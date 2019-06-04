@@ -102,6 +102,99 @@ largest drop-off occurs in the subcategory represented by the orange color. That
 That graph shows that for those dogs that did not complete the 20 questions of the Assessment, most of them dropped off after 
 they completed the Empathy subcategory. So, what do you think the answer to Q1 is? True or False. It should be easy to tell by now.
 
+Q11: You are writing a calculation to rank each test a dog completed by its time stamp in the dognition_data_no_aggregation data set. 
+You’ve configured your table calculation so that “Dog ID” and “Test Name” are in the Partitioning field and “Second Created” is
+in the Addressing field. The resulting rank will:
+
+#Comments:
+The purpose of writing a calculation here is to, for each dog ID, rank the tests according to the order they were taken. 
+For every dog ID, the first test taken would receive the rank 1, the second would receive the rank 2 and so on. 
+The calculation should achieve the same purpose as the Ranked by Dog ID field.
+
+Once you understand the purpose and function of the calculation, there is only "1" statement that stands out as the correct choice.
+(I put 1 inside double quotations to emphasize it. Combined with the analysis above, do you get the hint?)
+
+P.S. : You do not need to write the function, but if you like to explore like I do, you can write the function as follow:
+Rank(ATTR([Created at]),"asc")
+Make sure you specify "asc" for ascending. Otherwise, the default is descending and the last test a dog took would receive rank 1.
+Name the calculation RANK (or any descriptive name that tells what it is).
+
+Always keep the Test Account variable in the Filters card. You can ignore the Dog ID (group) variable shown here. 
+It is a test variable I created to test the RANK function and contains only 5 randomly selected Dog ID's.
+
+Place RANK in Detail. Right-click --> Edit Table Calculation ... If you have Tableau 2019.2 (the newest version when I downloaded it),
+you would see the Table Calculation dialog box.
+
+#Select the computing parameters as shown.
+Change RANK to Discrete. The pill should be blue now.
+Place Dog ID, Test Name and Rank in Rows in the following order.
+
+
+
+
+
+
+
+
+
+Q10: If you were writing a calculation to rank each test a dog completed by its time stamp in the dognition_data_no_aggregation 
+data set, what would be missing from the following version of your rank table calculation: RANK(([Created At]),'asc')
+
+#Comments:
+First of all, if you simply place the Created At variable inside the RANK function, 
+Tableau will give you an error message at the bottom of the dialog box.
+
+If you click on the triangle, you will see the details of the error message: 
+"All fields must be aggregate or constants when using table calculation functions or fields from multiple data source".
+
+After seeing the detail of this error message, you know immediately that the statement "there is nothing needed" should NOT be selected.
+What about other statements?
+
+
+
+
+Q11: You are writing a calculation to rank each test a dog completed by its time stamp in the dognition_data_no_aggregation data set. You’ve configured your table calculation so that “Dog ID” and “Test Name” are in the Partitioning field and “Second Created” is in the Addressing field. The resulting rank will:
+
+The purpose of writing a calculation here is to, for each dog ID, rank the tests according to the order they were taken. For every dog ID, the first test taken would receive the rank 1, the second would receive the rank 2 and so on. The calculation should achieve the same purpose as the Ranked by Dog ID field.
+
+Once you understand the purpose and function of the calculation, there is only "1" statement that stands out as the correct choice. (I put 1 inside double quotations to emphasize it. Combined with the analysis above, do you get the hint?)
+
+P.S. : You do not need to write the function, but if you like to explore like I do, you can write the function as follow:
+
+Rank(ATTR([Created at]),"asc")
+
+Make sure you specify "asc" for ascending. Otherwise, the default is descending and the last test a dog took would receive rank 1.
+
+Name the calculation RANK (or any descriptive name that tells what it is).
+
+Always keep the Test Account variable in the Filters card. You can ignore the Dog ID (group) variable shown here. 
+It is a test variable I created to test the RANK function and contains only 5 randomly selected Dog ID's.
+
+Place RANK in Detail. Right-click --> Edit Table Calculation ... If you have Tableau 2019.2 (the newest version when I downloaded it), 
+you would see the Table Calculation dialog box.
+
+Select the computing parameters as shown.
+Change RANK to Discrete. The pill should be blue now.
+Place Dog ID, Test Name and Rank in Rows in the following order.
+
+As I explained in Q10, the calculation using the RANK function ranks the tests a dog took in the order from the earliest to the last. 
+For each dog, the first 1 receiving ranking 1.
+
+Why don't you try it yourself?
+
+By the way, when I wrote the calculation, I used the corrected hours. 
+If you use the original Created At field, the hours you see on your table may be different, 
+but they should not have any effect on the ranking.
+
+
+
+
+
+
+
+
+
+
 
 
 
