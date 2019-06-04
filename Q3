@@ -71,3 +71,37 @@ to rank each test a dog completed by its time stamp. The following field(s) will
 Partitioning field in the calculation configuration page in your new calculation meant to rank each test a human user completed: 
 (check all that apply)
  
+ 
+# Robust explanations for the graded quiz, with all the fine details you want without giving out the answer.
+* For all questions, filter out the test accounts: the Shih Tzu that weigh more than 190 pounds. 
+* If you do not, the presence of these tests accounts will likely make your analysis inaccurate.
+* Right-click while in the Measure pane or go to Analysis. Choose Create Calculated Filed...
+
+**You may use the following function.**
+IF[Breed]="Shih Tzu"
+AND[Weight]=190
+THEN "Exclude"
+ELSE "View"
+END
+
+Name the calculated field "Test Accounts" (or at least give it a descriptive name so that you know what the field is). 
+For all questions, place this calculated field in the Filters card and select only View.
+
+Q1: In the dognition_data_no_aggregation data set, the greatest drop offs of test-takers occur after a subcategory of tests 
+is completed rather than while the subcategories of tests are still in progress.
+
+# Comments: 
+The tallest four bars, in other words, highest record counts, are mostly orange, the color assigned by Tableau for the Empathy 
+subcategory. There is still a little of orange in the 5th bar, but compared to the first 4 bars, it is marginal, indicating a 
+large decrease in the Empathy subcategory in terms of counts of records. Indeed, if look at the big picture and examine 
+each color from where it dominates the bars to where you have to look hard to see it (where a subcategory has a huge 
+decrease in number of records) and compare the difference in Counts of Number of Records when you can easily see the color 
+and when you have to look hard to find it, the difference in the orange color is the biggest, indicating that the 
+largest drop-off occurs in the subcategory represented by the orange color. That's Empathy.
+
+That graph shows that for those dogs that did not complete the 20 questions of the Assessment, most of them dropped off after 
+they completed the Empathy subcategory. So, what do you think the answer to Q1 is? True or False. It should be easy to tell by now.
+
+
+
+
