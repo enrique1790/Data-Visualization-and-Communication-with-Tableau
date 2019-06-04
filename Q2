@@ -55,33 +55,50 @@ Refer to Lesson 6 Line Graphs and Box Plots to review how to answer this type of
 1. Use the Dognition_aggregated_by_DogID data set for the quiz questions. Note that we use comma (,) to separate groups of thousands in numbers.
 How many unique human user IDs are there in the Dognition_aggregated_by_DogID data set?
 
-2. What feature is common to all the rows that have a value of 37 in the “State” field of the Dognition_aggregated_by_DogID data set? Check all that apply.
+2. What feature is common to all the rows that have a value of 37 in the “State” field of the Dognition_aggregated_by_DogID data set? 
+Check all that apply.
 
-3. What property is common to almost all the data points that had “Sign In Counts” of greater than 175 in the Dognition_aggregated_by_DogID data set?
+3. What property is common to almost all the data points that had “Sign In Counts” 
+of greater than 175 in the Dognition_aggregated_by_DogID data set?
 
-4. The Personality Dimension that has the highest average number of completed tests in the Dognition_aggregated_by_DogID data set is clearly:
+4. The Personality Dimension that has the highest average number of completed tests in the Dognition_aggregated_by_DogID 
+data set is clearly:
 
-5. In the Dognition_aggregated_by_DogID data set, what is consistent about the relationship between breeding group and number of tests completed, regardless of whether you aggregate the variable representing the number of tests completed by the median or the average of the breeding group?
+5. In the Dognition_aggregated_by_DogID data set, what is consistent about the relationship between breeding group 
+and number of tests completed, regardless of whether you aggregate the variable representing the number of tests 
+completed by the median or the average of the breeding group?
 
-6. In the Dognition_aggregated_by_DogID data set, what personality type has the strongest representation (greatest number of records) in the sporting breed group?
+6. In the Dognition_aggregated_by_DogID data set, what personality type has the strongest representation (greatest number of records) 
+in the sporting breed group?
 
-7. In the Dognition_aggregated_by_DogID data set, which of the following describes the median number of tests dogs of different breed types complete?
+7. In the Dognition_aggregated_by_DogID data set, which of the following describes the median number of tests dogs 
+of different breed types complete?
 
-8. In the Dognition_aggregated_by_DogID data set, how do the average number of tests dogs complete compare for fixed vs. not fixed dogs across different breed types? Click all that apply
+8. In the Dognition_aggregated_by_DogID data set, how do the average number of tests dogs complete compare 
+for fixed vs. not fixed dogs across different breed types? Click all that apply
 
-9. In the Dognition_aggregated_by_DogID data set, which of the following are true about the average number of tests dogs complete when comparing DNA vs. not DNA-tested dogs who were fixed vs. not fixed across different breed types? Click all that apply.
+9. In the Dognition_aggregated_by_DogID data set, which of the following are true about 
+the average number of tests dogs complete when comparing DNA vs. not DNA-tested dogs who were fixed vs. 
+not fixed across different breed types? Click all that apply.
 
-10. In the Dognition_aggregated_by_DogID data set, when you make a filled map that displays the number of unique Dog IDs in each country, there is country in Africa that has a deep color, suggesting it has a lot of users. When you hover over that country, what Country is displayed on the tool tip?
+10. In the Dognition_aggregated_by_DogID data set, when you make a filled map that displays the number of unique Dog IDs
+in each country, there is country in Africa that has a deep color, suggesting it has a lot of users.
+When you hover over that country, what Country is displayed on the tool tip?
 
 11. In the Dognition_aggregated_by_DogID data set, which state within the United States has the most Dognition customers?
 
-12. In the Dognition_aggregated_by_DogID data set, dogs in which of the following states did customers complete a median number of tests that was greater than 13? Check all that apply.
+12. In the Dognition_aggregated_by_DogID data set, dogs in which of the following states did customers 
+complete a median number of tests that was greater than 13? Check all that apply.
 
 13. Which of the following is true?
 
-14. In the Dognition_aggregated_by_DogID data set, when looking at only dogs who completed 19 or less tests, which of the following is true about the relationship between inter-test intervals (ITIs) and number of tests completed? Click all that apply.
+14. In the Dognition_aggregated_by_DogID data set, when looking at only dogs who completed 19 or less tests, 
+which of the following is true about the relationship between inter-test intervals (ITIs) and number of tests completed?
+Click all that apply.
 
-15. In the Dognition_aggregated_by_DogID data set, when looking at only dogs who completed 7 or less tests, which of the following is true about the relationship between inter-test intervals (ITIs) and number of tests completed? Click all that apply
+15. In the Dognition_aggregated_by_DogID data set, when looking at only dogs who completed 7 or less tests, 
+which of the following is true about the relationship between inter-test intervals (ITIs) and number of tests completed? 
+Click all that apply
 
 ## My hints for WEEK 2 Quiz
 I have gotten stuck in week 2 for a couple of days and I have been so frustrated by almost all the problems in the quiz. 
