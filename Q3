@@ -1,5 +1,4 @@
 ## Mentor Hints for Week 3 Graded Quiz
-
 Question 1
 Make sure you are using the appropriate variables to address this question.
 Question 2
@@ -30,5 +29,45 @@ Question 12
 Refer to Lessons 4 Table Calculations and Parameters and Lesson 5 Dashboards and Story Points to review 
 the material relevant to this question, or try it yourself!
 
+Quiz 3# 
+1. Use the dognition_data_no_aggregation data set provided in this course for this quiz.In the dognition_data_no_aggregation data set, 
+the greatest drop offs of test-takers occur after a subcategory of tests is completed rather than while the subcategories of tests 
+are still in progress. T/F
 
+2. In the dognition_data_no_aggregation data set, after which game is the drop-off of completed tests the greatest?
+
+3. If you remove all the entries associated with Shih Tzu dogs that weigh 190 pounds from the dognition_data_no_aggregation data set, 
+how many different sequences of tests were administered to customers in the data that are left?
+
+4. During which day of the week do customers play Dognition games the most?
+
+5. During which month in the data set were the most tests completed?
+
+6. After adjusting the time stamps of the tests completed by United States users provided in the “Created At” field of 
+the dognition_data_no_aggregation data set for time zone differences, during which hour of the day do Dognition customers 
+play the most amount of games?
+
+7.In the dognition_data_no_aggregation data set, approximately what percentage of users who begin taking the 
+Dognition Assessment complete 20 tests?
+
+8.In the dognition_data_no_aggregation data set, what percentage of users who begin taking the Dognition Assessment 
+using a “Free Start” promotion complete 20 tests?
+
+9.Using the dognition_data_no_aggregation data set, if you make a table using the “Dog ID” and “Test Name” variables on the rows shelf, 
+and Created At on the Text property of the Marks card, which of the following might be a value you would see in 
+the column farthest to the right, if the “Created At” pill was blue and read SECOND(Created At)?
+
+10. Question 10: If you were writing a calculation to rank each test a dog completed by its time stamp in
+the dognition_data_no_aggregation data set, what would be missing from the following version of your rank table 
+calculation: RANK(([Created At]),'asc')
+
+11. You are writing a calculation to rank each test a dog completed by its time stamp in the dognition_data_no_aggregation data set. 
+You’ve configured your table calculation so that “Dog ID” and “Test Name” are in the Partitioning field 
+and “Second Created” is in the Addressing field. The resulting rank will:
+
+12.You are writing a calculation to include a column in a table that ranks each test a human user completed
+by its time stamp in the dognition_data_no_aggregation data set. You put this column directly to the left of the column you made 
+to rank each test a dog completed by its time stamp. The following field(s) will go in the 
+Partitioning field in the calculation configuration page in your new calculation meant to rank each test a human user completed: 
+(check all that apply)
  
