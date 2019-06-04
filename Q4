@@ -1,0 +1,96 @@
+# Mentor Hints for Week 4 Graded Quiz
+Question 1
+Please watch The Storyboarding Hourglass video for a review of the hourglass model.
+
+Question 2
+Please see video Making Your Data Story Come Alive for a review about story elements.
+
+Question 3
+Please see video Storyboarding Your Presentation to review what those components are.
+
+Question 4
+Please see video Storyboarding Your Presentation to review the correct answer and its rationale.
+
+Question 5
+Please see video Overgeneralization and Sample Bias to review what leads to and prevents this logical fallacy.
+
+Question 6
+Please see video Overgeneralization and Sample Bias to review what leads to and prevents this logical fallacy.
+
+Question 8
+Please see video How Correlations Impact Business Decisions to review how correlations impact business decisions.
+
+Question 9
+See video Choosing Visualizations for Story Points to review why certain charts are effective or not effective in business presentations.
+
+Question 10
+Please see video The Neuroscience of Visual Perception can Make or Break your Visualization to review how differences 
+in what humans can perceive should be taken into consideration in your visualizations.
+
+Question 11
+Please see video Misinterpretations Caused by Colorbars to review how colorbars can be misleading.
+
+Question 12
+Go to video Visual Contrast Directs where Your Audience Looks to review how to format your graphs to tell a data story.
+
+Question 13
+Please see video Formatting Slides to Communicate Data Stories to review the concept of data-ink.
+
+Question 14
+Please see video Formatting Slides to Communicate Data Stories to review the concept of data-ink.
+
+Question 15
+Please see video Delivering your Data Story to review effective methods for presenting a data story.
+
+Quiz #4
+1. The hourglass model is a framework for structuring effective business presentations.
+Which of the following is NOT part of the hourglass model? Choose all that apply.
+
+2. Beginning your business presentation in the middle of the plot of a motivational story can sometimes be an effective way 
+to lead into your business recommendation.
+
+3. The storyboarding process includes:
+
+4. According to the psychology literature, if the business recommendation you are going to make in a business presentation 
+is likely to be controversial, you should order the stem of your presentation hourglass so that the:
+
+5.The logical fallacy of overgeneralization can be avoided by removing outliers and rows with missing data.
+
+6. To test whether a certain advertising campaign would work, an analytics team sorts their customer list from lowest to 
+highest customer ID number, and then sends their advertisement to the first 1000 customers on the list. 
+The rest of the customers did not receive any advertisements that week. When analyzing the results of the campaign one week later, 
+the analytics team realized that there was a previously unknown pattern in the customer ID numbers: 
+the lower the customer number, the longer the person had been a customer. Thus, the customers who received 
+the advertisement were the individuals who had been customers with the company the longest. 
+The analytics team decided the test was invalid and needed to be repeated. 
+The reason for their decision was that analyzing the results in their current form would result in the following logical fallacy
+(or fallacies):
+
+7. When two variables are correlated, one variable does not cause the other variable.
+
+8. The best way to understand the nature of a relationship between two variables is to run a test.
+
+9. Which charts should you NOT use often in business presentations? Choose all that apply.
+
+10. When you want to represent very detailed and nuanced information about continuous variables, given humans’ ability to perceive
+relative differences along different kinds of visual attributes, which of the following attributes should you exploit in your 
+visualizations? Choose the best 2 options.
+
+11. If you are in a situation where you MUST use colorbars to represent detailed information about a continuous variable, you should:
+
+12. Visualizations for persuasion should: (Choose all that apply)
+
+13. Which of the following reflect(s) the principles of maximizing the data-ink ratio? Choose all that apply.
+
+14.  It’s a good idea to apply the rule of thirds to: (Choose all that apply)
+
+15. Effective presentation techniques include:
+
+16. A hospital was having problems with the amount of time employees with direct care responsibilities were absent from work.
+Due to the high levels of absenteeism, patient satisfaction was declining, 20% of patient-related work was not getting done, 
+and 47% of non-patient work was not getting done. At the advice of a consulting company, the hospital implemented a positive 
+incentive system that would allow all employees to convert up to 24 hours of unused sick time into additional pay or more vacation
+days in order to reduce absenteeism. After 6 months of implementing the program, the hospital analysts calculated that absentee
+rates declined an average of 11.5 hours per employee, and concluded that the program was successful in this company. 
+Did the hospital analysts commit any logical fallacies when arriving at their conclusion, and if so, which fallacy (or fallacies)?
+
