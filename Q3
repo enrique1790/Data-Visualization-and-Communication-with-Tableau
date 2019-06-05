@@ -3,8 +3,19 @@ Question 1
 Make sure you are using the appropriate variables to address this question.
 Question 2
 It might help to color-code your graph for “Test Name.”
+--> Each color now represents a test name. Using the same approach as in Q1 and each color from where it almost dominates the whole bar 
+to where it is barely visible and compare the difference in Counts of Number of Records. You should find that the largest difference is
+in the dark green color, the 4th bar that represents the Eye Contact game. Point your cursor to the 5th bar and carefully examine 
+each color. There is no dark green at all.
+
 Question 3
 It might help to color-code your graph for “Test Name.”
+--> Examine the graph for Q2. Point your cursor at the first bar and count the number of different colors in that bar. 
+There are at least 4 different colors, meaning there are at least this many different sequences of tests were administered to 
+the customers after the test accounts are taken out.
+
+
+
 Question 4
 Please check whether you are examining the correct variables or applying an inappropriate aggregation.
 Question 5
