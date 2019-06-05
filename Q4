@@ -1,6 +1,20 @@
 # Mentor Hints for Week 4 Graded Quiz
 Question 1
 Please watch The Storyboarding Hourglass video for a review of the hourglass model.
+--> Begin and end your presentation with motivating context
+
+Commentary:
+So, "motivation context" means "big picture". That was something I was missing the first time.
+This was not why I selected the above statement though. I selected the statement because of this picture.
+
+Surround the presentation with "motivating context". When something is surrounded by another thing, it has that thing at the beginning
+and the end. So, the correct answer is "begin and end your presentation with motivating context". I did not think of that the first time.
+I involved spatial reasoning in deriving the answer. My logic was a bit unorthodox, compared to Coursera's explanation. But it is all
+good. I cleared the persistent hurdle between me and a 100%.
+
+I encountered at least one new problem each re-take. Being able to get them all correct tells me that I DID get something away from 
+this week's course contents.
+
 
 Question 2
 Please see video Making Your Data Story Come Alive for a review about story elements.
@@ -16,6 +30,15 @@ Please see video Overgeneralization and Sample Bias to review what leads to and 
 
 Question 6
 Please see video Overgeneralization and Sample Bias to review what leads to and prevents this logical fallacy.
+
+#Commentary:
+The fallacy is over-generalization (or hasty generalization). The analyst was making a claim based on limited evidence, 
+rather than statistics that is more in line with typical or average population. Ideally, the analyst could have asked more probing 
+questions to understand the various business aspects, especially the aspect customers with lower IDs were those who had been with the 
+company the longest. Because the analyst was not aware of this critical business aspect and ran the experiment on the first 1000 
+customer IDs. This is making a claim on limited evidence that does not reflect the average population.
+
+There is some kind of control here: customers who received the advertisements vs. customers who did not receive the advertisements.
 
 Question 8
 Please see video How Correlations Impact Business Decisions to review how correlations impact business decisions.
@@ -67,6 +90,7 @@ The reason for their decision was that analyzing the results in their current fo
 (or fallacies):
 
 7. When two variables are correlated, one variable does not cause the other variable.
+-->When two variables are correlated, one variable does not NECESSARILY cause the other variable, but there CAN be a cause and effect.
 
 8. The best way to understand the nature of a relationship between two variables is to run a test.
 
@@ -93,4 +117,16 @@ incentive system that would allow all employees to convert up to 24 hours of unu
 days in order to reduce absenteeism. After 6 months of implementing the program, the hospital analysts calculated that absentee
 rates declined an average of 11.5 hours per employee, and concluded that the program was successful in this company. 
 Did the hospital analysts commit any logical fallacies when arriving at their conclusion, and if so, which fallacy (or fallacies)?
+--> Lack of controls 
+
+Commentary:
+The key question is here: the analyst ran the experiment without a control group. If an experiment is ran indiscriminately over a 
+population, you cannot conclude exactly what factors are causing the outcome you see. There might be factors in the population that, 
+even if you do not run the experiment, would still cause the observed outcome. So, the logical fallacy is "lack of control".
+
+The analyst could have done the following to avoid making the logical fallacy "lack of control": randomly select a group of employees to
+give out the incentive. This is the experimental group. Employees who are not offered the incentive is the control group. After six 
+months, compare the attendance rates of the experimental group and control group. However, if the difference in attendance rates between 
+the control group and experiment group is not strong enough or there is no difference, then, the increase in attendance rate in the 
+experimental group is more likely to have been caused by factors other than the incentive program recommended by the analyst.
 
