@@ -14,6 +14,11 @@ Filters: Dog ID (Group): Other "Other box is checked off"
 DetaiL: Dog ID
 Color: Dog ID (group)
 
+# How to Filter to get Dog ID Group :
+1. On The Axis set 175 as the minimum value
+2. Select all the outliers
+3. Right Click and select Group option
+
 ## Comments:
 Dog IDs with Sign in Count of above 175 are grouped and filtered out to exclude these outliers.
 
