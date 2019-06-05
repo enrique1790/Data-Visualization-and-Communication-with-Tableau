@@ -44,6 +44,10 @@ Filters: Dog ID (Group) : Other; Breed Type Select [Cross Breed, Mixed Breed/Oth
 ## Comments:
 Median Total Tests Completed for all Breed Types is 7. Is this correct?
 
+## Anaylsis:
+1.I found that average total tests completed were very similar across breed types:
+2. Then I found that except for Pure Breeds, the overwhelming majority of entries is missing a breed group label:
+
 **Excercise 3**
 #Summary
 Variables: DNA tested, Dog Fixed, Total Tests Completed, Breed Type, Dog Fixed, DNA Tested, Total Tests Completed
