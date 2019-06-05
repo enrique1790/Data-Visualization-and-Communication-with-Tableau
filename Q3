@@ -49,11 +49,8 @@ It might help to color-code your graph for “Test Name.”
 There are at least 4 different colors, meaning there are at least this many different sequences of tests were administered to 
 the customers after the test accounts are taken out.
 
-
-
 Question 4
 Please check whether you are examining the correct variables or applying an inappropriate aggregation.
-
 
 Question 5
 Please see Lesson 5 Dashboards and Story Points to review how to use date fields in Tableau. 
@@ -140,7 +137,6 @@ Maybe Dognition should modify their marketing strategy. Eye Contact is the game 
 Instead of giving out the first 4 tests for free, maybe Dognition should give out the 4 tests that come after they Eye Contact game for 
 free to entice customers to complete more tests with their dogs.
 
-
 Question 9
 Try it for yourself to learn the correct answer!
 
@@ -155,8 +151,6 @@ variable I created to tests the RANK function that Q10, Q11 and Q12 mention. It 
 
 --> Place Corrected Created At (the calculated field created in Q6) in Text. Click on the pill. There are two blocks that have "Year 
 Quarter Month Day More". Go to the first block. Select More, the select Second.
-
-
 
 Question 10
 Try it for yourself to learn the correct answer!
