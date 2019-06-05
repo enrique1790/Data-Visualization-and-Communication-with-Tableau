@@ -57,6 +57,18 @@ The median Total Tests Completed is highest for dogs which are DNA tested but no
 which supports the hypothesis that owners which intend to breed their digs may be more interested 
 in the personality of their dogs than other owners.
 
+## Analysis 
+"Owners who intend to breed their dogs might be more interested in the personality of their dogs than others 
+(because they will be interested in whether they are breeding a certain kind of temperament)."
+
+It is impossible to breed a dog if the dog is fixed or neutered. If the above hypothesis is true, on average non-fixed dogs 
+should complete more tests than fixed dogs, since the owners of non-fixed might be more interested in the personality of their dogs. 
+However, this is not the case.
+
+On average, fixed dogs completed more tests than non-fixed dogs. I think that the reason fixed dogs completed more tests could be that 
+(1) fixed dogs have stabler moods; 2) the owners of fixed dogs want their dogs to focus on them instead of things that 
+non-fixed dogs could do; 3) fixed dogs have better focus.
+
 **Excercise 4**
 #Summary
 Variables: Dog ID, Country, Total Tets Completed, Show Me 
@@ -75,6 +87,18 @@ The charts show the median of Total Tests Completed and distinct count of Dog ID
 The distinct count of Dog ID filter includes values greater than or equal to 30. 
 Out of these countries, Germany, Denmark, Norway and New Zealand have higher median Total Tests Completed than the US.
 
+## Analysis
+"As a point of discussion, how can you use the information from these geographic analyses to make a recommendation about a 
+geographical market Dognition should either nurture or move more into?"
+
+The U.S. is Dognition's major market. Runners-up include Canada, Australia, Great Britain. 
+These countries have the most Dognition customers. The result is not surprising given the facts that (1) U.S. is Dognition's home turf; 
+(2) Canada, Australia and Great Britain are famous dog-friendly countries.
+
+In terms of marketing and long-term business strategy, wile it is of Dognition's interest to continue focusing on the above geographical 
+markets, it may also want to expand more into other dog-friendly countries, such as France, Norway and Luxembourg. 
+Logic: If people love dogs, wouldn't they be more interested in their dogs' temperament?
+
 **Excercise 5**
 # Summary
 Variables: Median ITI, Mean ITI, Dog ID, Total Tests Completed
@@ -91,3 +115,23 @@ Filters: Dog ID(group)[Other checked off]: Other, Total Tests Completed [1,19], 
 The trend lines or Mean ITI and Median ITI go in opposite directions.
 The median is less affected by outliers, the Median ITI trend line supports the hypothesis that 
 customers who complete tests more quickly are more likely to complete more tests.
+
+## Analysis
+"In this exercise, we are going to try to assess the hypothesis that customers who complete tests quickly are more likely to 
+complete more tests overall."
+
+There are some level of relations between Mean ITI (minutes) and Total Test Completed or Median ITI (minutes) and Total Test Completed, 
+but the relations are not strong at all. Despite the significant p-values in both cases, R-squared in both cases are extremely low, 
+indicating very little fluctuation (or change) in the number of tests completed can be explained by Median ITI or Mean ITI.
+
+The following regressions have the outliers in Sign-In Count (those above 175) and dogs completed 20 or more tests filtered out. 
+Outliers in Median ITI (minutes) and Mean ITI (minutes) are also filtered out.
+
+Median ITI (minutes) vs. Total Test Completed (19 or less)
+
+p-value is smaller than 0.0001, indicating statistical significance. However, R-squared is only 0.0084051, 
+indicating that less than 1% of the fluctuation (or change) in number of tests completed is explained by the Median ITI (minutes)
+
+Mean ITI (Minutes) vs. Total Tests Completed (19 or less)
+
+
