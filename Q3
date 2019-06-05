@@ -93,18 +93,38 @@ PM hour.
 
 Question 7
 Check that you are using the correct aggregations, and try using the table calculation techniques described in 
-
 Week 3’s Practice Exercise 3 to arrive at your answer.
+
+#Tableau 
+Columns: Rank by DogID
+Rows: CNTD(Dog ID), CNTD( Dog ID)
+Filters: Test Accounts: View
+
+--> Filter out the test accounts with Shih Tzu that weighed 190 pounds.Place two instances of Dog ID in Rows. For both instances,
+right-click and choose Count (Distinct). You now have two instances of CNTD(Dog ID) in Rows and two bar charts in the work space. 
+Right-click on the second CNTD(Dog ID), point your cursor at "Quick Table Calculation..." and choose "Percent of Total".
+
+-->The bar chart at the bottom now has the percentage of dogs that completed each number of tests. To find out the percentage that 
+completed 20 tests, point your cursor at the bar of bottom bar chart that represented 20.
+
 Question 8
 Check that you are using the correct aggregations, and try using the table calculation techniques described in
 Week 3’s Practice Exercise 3 to arrive at your answer.
+
+
 Question 9
 Try it for yourself to learn the correct answer!
+
+
 Question 10
 Try it for yourself to learn the correct answer!
+
+
 Question 11
 Refer to Lessons 4 Table Calculations and Parameters and Lesson 5 Dashboards and 
 Story Points to review the material relevant to this question.
+
+
 Question 12
 Refer to Lessons 4 Table Calculations and Parameters and Lesson 5 Dashboards and Story Points to review 
 the material relevant to this question, or try it yourself!
