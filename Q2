@@ -38,7 +38,6 @@ Please review Lesson 3 Let's Get Started to review how to arrive at the correct 
 Question 7
 Please review Lesson 3 Let's Get Started to review how to arrive at the correct answer.
 
-
 Question 8
 Please check that you are using the appropriate aggregation, and review Lesson 3
 Let's Get Started and the course Practice Exercises for information about how to arrive at the correct answer.
@@ -74,7 +73,22 @@ Answer choice: "The Cross-Breed dogs that were DNA tested but NOT fixed were mos
 View Data and select Full Data at the bottom. You can immediately tell that the dogs in this category are mostly
 Labrador Retriever-Golden Retriever Mixes.
 
+Answer choice: "The Cross-Breed dogs that were DNA tested but NOT fixed were mostly Golden Doodles."
+--->No. Because of the analysis above, this should be immediately excluded.
 
+Answer choice: "There was only one dog in the Popular Hybrid breed category who was DNA tested but not fixed."
+--> DNA tested but not fixed. So the 3rd block from the left in the graph. Right click on the bar for Popular Hybrid, click on View 
+Data and click Full Data at the bottom of the dialog box. You see that there is only one entry in the full data. So, the above 
+statement is correct and should be selected.
+
+Answer choice: "DNA-tested dogs completed more tests than dogs that were NOT DNA tested in all categories except for the category of 
+Popular Hybrids who were fixed."
+-->Take "Dog Fixed" off the Columns shelf. You can immediately tell that except for Popular Hybrids, DNA tested dogs completed more
+tests than dogs that are not DNA tested. Hence, the above statement should be selected.
+
+Answer choice: "DNA-tested dogs completed less tests than dogs that were NOT DNA tested in all categories except for the category 
+of Popular Hybrids who were fixed."
+--> Because of the analysis above, this statement is false and should not be selected.
 
 Question 10
 Check your filters, and make sure your aggregations are appropriate. 
@@ -90,12 +104,56 @@ Please review video https://www.youtube.com/watch?v=o2q-L3auqW8
 Question 14
 Refer to Lesson 6 Line Graphs and Box Plots to review how to answer this type of question.
 
+"There was a significant positive (p < .05) correlation between average ITIs and number of tests completed."
+--> To test the truthfulness of the above statement, do the following: Place Mean ITI (Minutes) in the Columns shelf and place 
+Total Test Completed in the Rows shelf. The default function will be Sum. Whatever used for Mean ITI, the independent variable, 
+the same function should be used for the dependent variable Total Test Completed. Disaggregate the data by going to Analysis tab and 
+un-check Aggregate Measures.
+
+Group the Sign-In Count outliers by Dog ID (those with sign-in count greater than 175) Place Dog ID (Group) in the Filter and 
+display Other.
+
+Place Mean ITI (Minutes) in the Filter and display only values are 150K or less to filter out the outliers. 
+(Drag the variable to Filter: "#All" --> At Most --> 150,000)
+
+Place Total Test Completed display only values that are less than or equal to 19. 
+(Drag the variable to the Filter: "#All", --> At Most -->19)
+
+Right-click and select "Show Trend Lines...". You can immediately tell that the correlation between the Mean ITI (Minutes) and 
+Number of Test Completed is positive, because the line has an up-ward slope. To find the p-value, point the cursor at the line. 
+p-value<0.0001, which is smaller than 0.5, so the correlation is significant at the 95% confidence interval by the p-value approach.
+
+So, the statement is true.
+
+"There was a significant negative (p < .05) correlation between median ITIs and number of tests completed."
+To test the truthfulness of this statement, take Mean ITI out of the Columns shelf and put Median ITI (Minutes) there. Take Mean ITI 
+(minutes) out of the Filter and put Median ITI (Minutes) there. Display only values below 150K as previously did with the Mean.
+
+Right-click and select "Show Trend Line...". You can immediately tell that the correlation is negative, because of the line is down-ward
+sloping line. Point the cursor the line to display the p-value. p-value <0.0001, below 5%, hence, the correlation is significant 
+at 95% confidence interval, by the p-value approach.
+
+The above are the only two correct statements in Q14's answer choices. Indeed, once you select the above two statements, the others are
+automatically false, since they contradict the above two statements.
+
+To answer Francesco Racanati's question "why are we talking of "significant correlation" if we are getting so lower values of R^2?", 
+a low R-square and a significant p-value, this is what happens why you force a regression on two variables while the independent variable
+bears little predictive effect on the dependent variable. Using the Median ITI (Minute) vs. Total Test Completed as an example, 
+the R-square is only 0.0084051 while the p-value is statistically significant. Only 0.8% change in dependent variable 
+"Total Test Completed" is explained by the independent variable "Median ITI (Minutes)".
+
+Low R-squared could also happen when statistically insignificant independent variables are included with significant independent 
+variables in the model. But in the case of Q14, there is only one independent variable, Mean ITI or Median ITI. Hence, we can conclude 
+that Mean ITI or Median ITI have little or no predictive effect on the dependent variable "Total Tests Completed".
+
+
 Question 15
 Refer to Lesson 6 Line Graphs and Box Plots to review how to answer this type of question.
+Use the same approach as above, except that change the filter on Total Test Completed to 7.
 
 ## Quiz 2
-1. Use the Dognition_aggregated_by_DogID data set for the quiz questions. Note that we use comma (,) to separate groups of thousands in numbers.
-How many unique human user IDs are there in the Dognition_aggregated_by_DogID data set?
+1. Use the Dognition_aggregated_by_DogID data set for the quiz questions. Note that we use comma (,) to separate groups of thousands in 
+numbers. How many unique human user IDs are there in the Dognition_aggregated_by_DogID data set?
 
 2. What feature is common to all the rows that have a value of 37 in the “State” field of the Dognition_aggregated_by_DogID data set? 
 Check all that apply.
