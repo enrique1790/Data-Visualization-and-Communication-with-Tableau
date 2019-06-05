@@ -71,8 +71,29 @@ Filters: Test Accounts View
 
 Question 6
 Please see Practice Exercise 2 of this week to review how to use Tableau to answer this question.
+--> For Q6, download the other Excel file "dognition_data_no_aggregation_with_zip_code_correction" from the course website. Follow the 
+instructions on pages 3 and 4 of the PDF file Week 3 Practice Exercise to upload the file to Tableau. Create a calculated field to 
+correct the hours. If this is not done, you will have a graph that says the hour that customers mostly likely to play the games with 
+their dogs is 0 (or 12:00 AM). Maybe a few people would do that, but definitely not the majority. So, the hours need to be corrected.
+
+#Tableau
+Formula: DATEADD("hour",[Diff from UTC],[Created at])
+Filters: Test Accounts: view
+Columns: HOUR(Corrected Created at)
+Rows:CNT(Number of Records
+
+--> I named the calculated field "Corrected Created At" (you can give it a descriptive name that lets you know what it is).
+The details for how to join the two files are in the PDF file Week 3 Practice Exercise. 
+
+--> filter out the test accounts. Put "Corrected Created At" (the calculated field just created) in Columns and Number of Records in Rows. 
+Click on Corrected Created At. Going down to the first block of "Year Quarter Month Day More". Point to More and select Hour in the 
+sub-menu. Click on Number of Records. Select Measure, then Count (Distinct). Point the cursor to the highest point of the graph to 
+find the hour that customers are most likely to play games with their dogs. It says 19. That's 24-hour format. Subtract 12 to get the 
+PM hour.
+
 Question 7
 Check that you are using the correct aggregations, and try using the table calculation techniques described in 
+
 Week 3’s Practice Exercise 3 to arrive at your answer.
 Question 8
 Check that you are using the correct aggregations, and try using the table calculation techniques described in
