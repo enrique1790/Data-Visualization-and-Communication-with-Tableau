@@ -1,6 +1,6 @@
 ## Mentor Hints for Week 3 Graded Quiz
 
-# Introduction
+# Robust explanations for the graded quiz, with all the fine details you want without giving out the answer.
 For all questions, filter out the test accounts: the Shih Tzu that weigh more than 190 pounds. If you do not, the presence of these 
 tests accounts will likely make your analysis inaccurate.
 Right-click while in the Measure pane or go to Analysis. Choose Create Calculated Filed...
@@ -108,26 +108,144 @@ Right-click on the second CNTD(Dog ID), point your cursor at "Quick Table Calcul
 completed 20 tests, point your cursor at the bar of bottom bar chart that represented 20.
 
 Question 8
-Check that you are using the correct aggregations, and try using the table calculation techniques described in
-Week 3’s Practice Exercise 3 to arrive at your answer.
+Check that you are using the correct aggregations, and try using the table calculation techniques described in Week 3’s Practice 
+Exercise 3 to arrive at your answer.
+--> Very similar to Q7, except that you need to create a group variable that separate the free-starters from the non-free-starters.
+
+#Tableau
+Columns: Free Start User
+Rows: CNTD(Number of Records)
+Filters: Test Accounts: View
+
+# You may do so by using the following steps.
+* Put the variable Free Start User in Columns. Change it to Dimension.
+* Put Number of Records in Rows. Click - > Measure -> Count (Distinct)
+* Always filter out the test accounts.
+* Right-click on the bar that says one and select Group from the pop-up menu. You now have a new variable called Free Start User 
+(Group) that you need for Q8.
+* Please make sure that Test Account is still in the Filter card and only View is selected.
+
+--> In your Tableau workspace, you should see these two parts side by side. However, if I upload them as one picture, you won't be able to 
+see the details here.
+For the purpose of Q8, you do not need to worry about the second part of the bar charts that has "Other" on top. "Other" consists of 
+non-free-starters. Q8 only asks for the free-starters.
+"1" means free-starters. At the bottom bar chart, in the part that has "1" on top, point your cursor to the bar for 20 and you should 
+see the percentage of free starters that completed all 20 tests.
+
+P.S.: In case you are as curious as me, on the part of the chart that has "Other" on top, at the bottom bar chart, point your cursor to 
+the bar for 20 to find the percentage of non-free-starters that completed 20 tests. It seems that Cognition's marketing strategy of 
+offering customers the first 4 tests for free was not as successful as Dognition had hoped.
+
+Maybe Dognition should modify their marketing strategy. Eye Contact is the game where most dogs dropped off (see my explanation for Q2). 
+Instead of giving out the first 4 tests for free, maybe Dognition should give out the 4 tests that come after they Eye Contact game for 
+free to entice customers to complete more tests with their dogs.
 
 
 Question 9
 Try it for yourself to learn the correct answer!
 
+#Tableau
+Columns:
+Rows: Dog ID, Test name
+Filters: Dog ID (group), Test Accounts: view
+Text: Second(Corrected Created At)
+
+--> Keep the calculated field Test Account in the Filters card. You can ignore the Dog ID (group) variable shown here. That is a test 
+variable I created to tests the RANK function that Q10, Q11 and Q12 mention. It only contains 5 dog ID's.
+
+--> Place Corrected Created At (the calculated field created in Q6) in Text. Click on the pill. There are two blocks that have "Year 
+Quarter Month Day More". Go to the first block. Select More, the select Second.
+
+
 
 Question 10
 Try it for yourself to learn the correct answer!
 
+First of all, if you simply place the Created At variable inside the RANK function, Tableau will give you an error message at the 
+bottom of the dialog box.
+
+If you click on the triangle, you will see the details of the error message: "All fields must be aggregate or constants when using table 
+calculation functions or fields from multiple data source"
+
+After seeing the detail of this error message, you know immediately that the statement "there is nothing needed" should NOT be selected.
+What about other statements?
+
+An aggregate function is needed. You always place the function in front of the variable. So, immediately, you can eliminate two more 
+statements: "an aggregation after [Created At], the most appropriate of which is MEDIAN" & "an aggregation after [Created At], the 
+most appropriate of which is ATTR " These two statements say that you should place the aggregate function after Created at, which is 
+wrong.
+
+There are only two statements left. One suggests the MEDIAN function, the other suggests the ATTR function. Which one do you need if 
+you are to write the RANK function? Think about what the MEDIAN function does and you will quickly conclude that MEDIAN is not the right
+aggregate function to mix with RANK.
+
+So, what statement should be chosen for Q10? After the analysis and eliminations above, there is only one possible answer left.
 
 Question 11
 Refer to Lessons 4 Table Calculations and Parameters and Lesson 5 Dashboards and 
 Story Points to review the material relevant to this question.
 
+#Tableau
+Columns:
+Rows: Dog ID, Test name, RANK
+Filters: Dog ID (Group), Test Accounts: View
+Detail: Rank
+Text: Corrected Created At
+
+The purpose of writing a calculation here is to, for each dog ID, rank the tests according to the order they were taken. For every 
+dog ID, the first test taken would receive the rank 1, the second would receive the rank 2 and so on. The calculation should achieve 
+the same purpose as the Ranked by Dog ID field.
+
+Once you understand the purpose and function of the calculation, there is only "1" statement that stands out as the correct choice.
+(I put 1 inside double quotations to emphasize it. Combined with the analysis above, do you get the hint?)
+
+P.S. : You do not need to write the function, but if you like to explore like I do, you can write the function as follow:
+* Rank(ATTR([Created at]),"asc")
+* Make sure you specify "asc" for ascending. Otherwise, the default is descending and the last test a dog took would receive rank 1.
+* Name the calculation RANK (or any descriptive name that tells what it is)
+
+Always keep the Test Account variable in the Filters card. You can ignore the Dog ID (group) variable shown here. It is a test variable 
+I created to test the RANK function and contains only 5 randomly selected Dog ID's.
+
+Place RANK in Detail. Right-click --> Edit Table Calculation ... If you have Tableau 2019.2 (the newest version when I downloaded it), 
+you would see the Table Calculation dialog box.
+
+# Select the computing parameters as shown.
+* Change RANK to Discrete. The pill should be blue now.
+* Place Dog ID, Test Name and Rank in Rows in the following order.
+
+--> As I explained in Q10, the calculation using the RANK function ranks the tests a dog took in the order from the earliest to the last.
+For each dog, the first 1 receiving ranking 1.
+Why don't you try it yourself?
+By the way, when I wrote the calculation, I used the corrected hours. If you use the original Created At field, the hours you see on 
+your table may be different, but they should not have any effect on the ranking
 
 Question 12
 Refer to Lessons 4 Table Calculations and Parameters and Lesson 5 Dashboards and Story Points to review 
 the material relevant to this question, or try it yourself!
+
+# Summary
+Q12 is very similar to Q11. Q11 uses Dog ID as a partition field. The ranking starts all over at each change of Dog ID. The only 
+difference between Q11 and Q12 is that while Dog ID is used in Q11, User ID should be used in Q12. Please refer to my explanation for 
+Q11 for the fine details.
+
+There is only one correct choice. With the above being said, isn't it obvious which choice is the correct one?
+Following is what it looks like on Tableau. You do not have to do this for Q12. As I showed above, analysis alone suffices. However, 
+I encourage you to try it out.
+
+Keep the calculated field Test Account (see Q1 explanation) in the Filters Card. Again, you can ignore Dog ID (group). It is a variable
+I created to test the RANK function. You can either place the original Created At in Text or the calculated field created in Q6. I 
+used the calculated field created in Q6. The ranking will not be affected. If you use the original Created At, the hours you see will 
+be different. The ranking will not be affected.
+
+Once the calculation RANK is placed inside Rows, right-click and to double-check the following parameters are selected. I use the
+2019.2 version of Tableau. If you use another version, what you see might be slightly different.
+
+#Tableau
+Columns:
+Rows: User ID, Test name, RANK
+Filters: Dog ID (group), Test Accounts: View
+Text: Corrected Created At
 
 Quiz 3# 
 1. Use the dognition_data_no_aggregation data set provided in this course for this quiz.In the dognition_data_no_aggregation data set, 
@@ -172,119 +290,6 @@ Partitioning field in the calculation configuration page in your new calculation
 (check all that apply)
  
  
-# Robust explanations for the graded quiz, with all the fine details you want without giving out the answer.
-* For all questions, filter out the test accounts: the Shih Tzu that weigh more than 190 pounds. 
-* If you do not, the presence of these tests accounts will likely make your analysis inaccurate.
-* Right-click while in the Measure pane or go to Analysis. Choose Create Calculated Filed...
-
-**You may use the following function.**
-IF[Breed]="Shih Tzu"
-AND[Weight]=190
-THEN "Exclude"
-ELSE "View"
-END
-
-Name the calculated field "Test Accounts" (or at least give it a descriptive name so that you know what the field is). 
-For all questions, place this calculated field in the Filters card and select only View.
-
-Q1: In the dognition_data_no_aggregation data set, the greatest drop offs of test-takers occur after a subcategory of tests 
-is completed rather than while the subcategories of tests are still in progress.
-
-# Comments: 
-The tallest four bars, in other words, highest record counts, are mostly orange, the color assigned by Tableau for the Empathy 
-subcategory. There is still a little of orange in the 5th bar, but compared to the first 4 bars, it is marginal, indicating a 
-large decrease in the Empathy subcategory in terms of counts of records. Indeed, if look at the big picture and examine 
-each color from where it dominates the bars to where you have to look hard to see it (where a subcategory has a huge 
-decrease in number of records) and compare the difference in Counts of Number of Records when you can easily see the color 
-and when you have to look hard to find it, the difference in the orange color is the biggest, indicating that the 
-largest drop-off occurs in the subcategory represented by the orange color. That's Empathy.
-
-That graph shows that for those dogs that did not complete the 20 questions of the Assessment, most of them dropped off after 
-they completed the Empathy subcategory. So, what do you think the answer to Q1 is? True or False. It should be easy to tell by now.
-
-Q11: You are writing a calculation to rank each test a dog completed by its time stamp in the dognition_data_no_aggregation data set. 
-You’ve configured your table calculation so that “Dog ID” and “Test Name” are in the Partitioning field and “Second Created” is
-in the Addressing field. The resulting rank will:
-
-#Comments:
-The purpose of writing a calculation here is to, for each dog ID, rank the tests according to the order they were taken. 
-For every dog ID, the first test taken would receive the rank 1, the second would receive the rank 2 and so on. 
-The calculation should achieve the same purpose as the Ranked by Dog ID field.
-
-Once you understand the purpose and function of the calculation, there is only "1" statement that stands out as the correct choice.
-(I put 1 inside double quotations to emphasize it. Combined with the analysis above, do you get the hint?)
-
-P.S. : You do not need to write the function, but if you like to explore like I do, you can write the function as follow:
-Rank(ATTR([Created at]),"asc")
-Make sure you specify "asc" for ascending. Otherwise, the default is descending and the last test a dog took would receive rank 1.
-Name the calculation RANK (or any descriptive name that tells what it is).
-
-Always keep the Test Account variable in the Filters card. You can ignore the Dog ID (group) variable shown here. 
-It is a test variable I created to test the RANK function and contains only 5 randomly selected Dog ID's.
-
-Place RANK in Detail. Right-click --> Edit Table Calculation ... If you have Tableau 2019.2 (the newest version when I downloaded it),
-you would see the Table Calculation dialog box.
-
-#Select the computing parameters as shown.
-Change RANK to Discrete. The pill should be blue now.
-Place Dog ID, Test Name and Rank in Rows in the following order.
-
-
-
-
-
-
-
-
-
-Q10: If you were writing a calculation to rank each test a dog completed by its time stamp in the dognition_data_no_aggregation 
-data set, what would be missing from the following version of your rank table calculation: RANK(([Created At]),'asc')
-
-#Comments:
-First of all, if you simply place the Created At variable inside the RANK function, 
-Tableau will give you an error message at the bottom of the dialog box.
-
-If you click on the triangle, you will see the details of the error message: 
-"All fields must be aggregate or constants when using table calculation functions or fields from multiple data source".
-
-After seeing the detail of this error message, you know immediately that the statement "there is nothing needed" should NOT be selected.
-What about other statements?
-
-
-
-
-Q11: You are writing a calculation to rank each test a dog completed by its time stamp in the dognition_data_no_aggregation data set. You’ve configured your table calculation so that “Dog ID” and “Test Name” are in the Partitioning field and “Second Created” is in the Addressing field. The resulting rank will:
-
-The purpose of writing a calculation here is to, for each dog ID, rank the tests according to the order they were taken. For every dog ID, the first test taken would receive the rank 1, the second would receive the rank 2 and so on. The calculation should achieve the same purpose as the Ranked by Dog ID field.
-
-Once you understand the purpose and function of the calculation, there is only "1" statement that stands out as the correct choice. (I put 1 inside double quotations to emphasize it. Combined with the analysis above, do you get the hint?)
-
-P.S. : You do not need to write the function, but if you like to explore like I do, you can write the function as follow:
-
-Rank(ATTR([Created at]),"asc")
-
-Make sure you specify "asc" for ascending. Otherwise, the default is descending and the last test a dog took would receive rank 1.
-
-Name the calculation RANK (or any descriptive name that tells what it is).
-
-Always keep the Test Account variable in the Filters card. You can ignore the Dog ID (group) variable shown here. 
-It is a test variable I created to test the RANK function and contains only 5 randomly selected Dog ID's.
-
-Place RANK in Detail. Right-click --> Edit Table Calculation ... If you have Tableau 2019.2 (the newest version when I downloaded it), 
-you would see the Table Calculation dialog box.
-
-Select the computing parameters as shown.
-Change RANK to Discrete. The pill should be blue now.
-Place Dog ID, Test Name and Rank in Rows in the following order.
-
-As I explained in Q10, the calculation using the RANK function ranks the tests a dog took in the order from the earliest to the last. 
-For each dog, the first 1 receiving ranking 1.
-
-Why don't you try it yourself?
-
-By the way, when I wrote the calculation, I used the corrected hours. 
-If you use the original Created At field, the hours you see on your table may be different, 
-but they should not have any effect on the ranking.
 
 
 
