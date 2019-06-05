@@ -134,4 +134,33 @@ indicating that less than 1% of the fluctuation (or change) in number of tests c
 
 Mean ITI (Minutes) vs. Total Tests Completed (19 or less)
 
+p-value is smaller than 0.0001, indicating statistical significance. However, R-squared is only 0.0281518, indicating less than 3% of 
+the variance in number of tests completed is explained by Mean ITI (minutes).
 
+I think it is a good idea to build on previous knowledge and relate the above to Week 2's peer review project where we needed to 
+build our own model.
+
+In multivariate regressions, including statistically insignificant independent variables in the model can dilute model precision and 
+thus result in low R-squared. However, in the case above, there is only one independent variable, Mean ITI (minutes) or Median ITI 
+(minutes), that is statistically significant.
+
+In response to hypothesis in the PDF file whether dogs completed tests more quickly are likely to complete more tests, the conclusion
+is "No", based on the analysis of R-squared.
+
+Sometimes, changing the type of regression will increase the model's predictive power, i.e., a higher R-squared. Take the case of 
+Mean ITI (minutes) vs. Total Test Completed, a power regression DOES improve the fitness of the model.
+
+p-value is still smaller than 0.0001, indicating statistical significance at a 95% confidence interval. R-squared is now increased 
+to 0.257419, indicating that with power regression, about 26% of the variance in the number of tests completed is explained by
+Mean ITI (minutes). R-squared is still low, because we are trying to establish a relation between two variables that have little 
+relation in reality. However, it is a dramatic improve from linear regression and an example of how changing regression method can 
+improve our model's predictive power. Sometimes, people are too constrained to just one type of regression. I mentioned this here
+because this insight may be helpful if we need to build a model again in this course or this specialization. Why is this important? 
+Imagine feeding the linear model into a machine vs. feeding the power model into a machine and have the machine predict the outcome 
+and we prescribe remedies. The machine with the power model will be more accurate. The highest level of analytics, 
+prescriptive analytics, is built upon predictive analytics.
+
+One last note: the exercise PDF file says "put Total Tests Completed on the Columns shelf. Then put Median ITI and Mean ITI on 
+the Rows shelf". I think it should be the other way around as I showed in the power regression above, since we want to know whether 
+dogs who completed tests more quickly completed more tests, in other words, we want to know whether Mean ITI can predict number of
+tests completed. Hence, Mean ITI is the independent variable and Number of Tests Completed is the dependent variable.
