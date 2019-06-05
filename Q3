@@ -1,8 +1,33 @@
 ## Mentor Hints for Week 3 Graded Quiz
+
+# Introduction
+For all questions, filter out the test accounts: the Shih Tzu that weigh more than 190 pounds. If you do not, the presence of these 
+tests accounts will likely make your analysis inaccurate.
+Right-click while in the Measure pane or go to Analysis. Choose Create Calculated Filed...
+
+**You may use the following function.**
+IF[Breed]="Shih Tzu"
+AND[Weight]=190
+THEN "Exclude"
+ELSE "View"
+END
+
+--> Name the calculated field "Test Accounts" (or at least give it a descriptive name so that you know what the field is). For all 
+questions, place this calculated field in the Filters card and select only View.
+
 Question 1
 Make sure you are using the appropriate variables to address this question.
+
+
 Question 2
 It might help to color-code your graph for “Test Name.”
+
+#Tableau
+Column: Rank by DogID
+Rows: CNT(Number of records)
+Filters: Test Accounts: View
+Markdown: [Color: Test Name]
+
 --> Each color now represents a test name. Using the same approach as in Q1 and each color from where it almost dominates the whole bar 
 to where it is barely visible and compare the difference in Counts of Number of Records. You should find that the largest difference is
 in the dark green color, the 4th bar that represents the Eye Contact game. Point your cursor to the 5th bar and carefully examine 
