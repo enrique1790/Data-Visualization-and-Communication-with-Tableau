@@ -14,13 +14,13 @@ Filters: Dog ID (Group): Other "Other box is checked off"
 DetaiL: Dog ID
 Color: Dog ID (group)
 
+## Comments:
+Dog IDs with Sign in Count of above 175 are grouped and filtered out to exclude these outliers.
+
 # How to Filter to get Dog ID Group :
 1. On The Axis set 175 as the minimum value
 2. Select all the outliers
 3. Right Click and select Group option
-
-## Comments:
-Dog IDs with Sign in Count of above 175 are grouped and filtered out to exclude these outliers.
 
 ### Notes:
 I was able to get around this issue by putting sign in count on rows, Dog ID on detail, 
@@ -115,6 +115,11 @@ well do dogs who do finish the Dogntion Assessment tets.
 Columns: Total Tests Completed
 Rows: Mean ITI(minutes) MedianITI(minutes)
 Filters: Dog ID(group)[Other checked off]: Other, Total Tests Completed [1,19], Mean ITI(minutes)
+
+## Show Trend Lines
+1. Right Click
+2. Scroll down to Trend Lines
+3. Select Show Trend Lines
 
 ## Comments:
 The trend lines or Mean ITI and Median ITI go in opposite directions.
