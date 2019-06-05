@@ -1,18 +1,29 @@
 Exercise  1.
-Variables: Rank by DogID, Created At, Total Tests Completed, Number of Records, Subcategory Name, Test Name
-Mark Cards: Color
+Variables: Test Name
+Mark Cards: CNT(Number of Records)
+Filters: Test name
 
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/YNAGX6OkEeiENw4S5vuL9g
  
 Exercise  2. 
-Variables: Created At, Number of Records, Diff from UTC, Created At, 
-Mark Cards:
+Variables: Hours(Time Corrected Created at), 
+Rows: SUM(Number of Records)
+Filters: Real Data: Keep
+
+Formula: DATAADD('hour',[Diff from UTC], [Created at])
 
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/m7bq4quwEei7igpEb2Etig
  
 Exercise  3.
 Variables: Free Start User, Rank by DogID, Free Start User(Group)
 Mark Cards:
+
+# Formula
+IF [Weight] = (190)
+AND [Breed]=='Shih Tzu'
+THEN 'Exlude'
+ELSE 'keep'
+END
 
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/_FQIcXIXEei1pw6GHpVmeA
  
