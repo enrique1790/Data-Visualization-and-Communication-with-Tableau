@@ -1,21 +1,30 @@
 Exercise  1.
-Variables: Test Name
-Mark Cards: CNT(Number of Records)
+#Data
+Variables: 
+Mark Cards: 
+
+#Tableau
+Columns: Test Name
+Rows: CNT(Number of Records)
 Filters: Test name
 
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/YNAGX6OkEeiENw4S5vuL9g
  
 Exercise  2. 
 Variables: 
-Column: Hours(Time Corrected Created at), 
+Column: YEAR(Time Correction), QUARTER(Time Correction), DAY(Time Correction), HOUR(Time Correction)
 Rows: SUM(Number of Records)
-Filters: Real Data: Keep
+Filters: WEEKDAY(Created at)
+
 Formula: DATAADD('hour',[Diff from UTC], [Created at])
 
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/m7bq4quwEei7igpEb2Etig
  
 Exercise  3.
+#Data
 Variables: Free Start User, Rank by DogID, Free Start User(Group)
+
+#Tableau
 Columns: Free Start User (group), Rank by DogID
 Rows: CNTD(Dog ID), CNTD(Dog ID)
 Filters: Exclude Test Data
@@ -36,10 +45,16 @@ https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/cdc
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/_FQIcXIXEei1pw6GHpVmeA
  
 Exercise  4.
-# Summary
-
+#Data
 Variables: Rank by DogID, Rank by UserID, Group of Dog IDs, Text Name, Created at, Test Name, 
 Mark Cards: Text, Details 
+
+#Tableau
+Columns:
+Rows: Dog ID, Test name, DAteRank, Day(created)
+Filters: Dog ID (group) Random
+Details: DAteRank
+
 
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/kpBB3nPmEeiPrBLBSH_lGA
  
