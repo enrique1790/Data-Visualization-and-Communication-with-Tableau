@@ -6,17 +6,20 @@ Filters: Test name
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/YNAGX6OkEeiENw4S5vuL9g
  
 Exercise  2. 
-Variables: Hours(Time Corrected Created at), 
+Variables: 
+Column: Hours(Time Corrected Created at), 
 Rows: SUM(Number of Records)
 Filters: Real Data: Keep
-
 Formula: DATAADD('hour',[Diff from UTC], [Created at])
 
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/m7bq4quwEei7igpEb2Etig
  
 Exercise  3.
 Variables: Free Start User, Rank by DogID, Free Start User(Group)
-Mark Cards:
+Columns: Free Start User (group), Rank by DogID
+Rows: CNTD(Dog ID), CNTD(Dog ID)
+Filters: Exclude Test Data
+Color: Free Start User
 
 # Formula
 IF [Weight] = (190)
