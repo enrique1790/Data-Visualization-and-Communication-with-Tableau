@@ -9,8 +9,18 @@ Question 1
 Consider whether there are other ways to aggregate the variable you are examining that would be more 
 appropriate for answering this question.
 
+# Tableau
+
 Question 2
 The “View Data” function in the Tableau workspace might be helpful for answering this question.
+
+# Steps:
+1.Filter out the outliers in Dog ID (those with sign-in counts greater than 175). 
+2. Place State in the Filter and display on "37".
+3. Right-click on "11" and select "View Data". When the dialog box pops up, select "Full Data" at the bottom.
+4. Immediately, you can select "They are all from Estonia", exclude "They are all golden retrievers" and "They are all charmers".
+5. Scroll to the right till you see "Total Test Completed" and "Weight". You will see that "They all completed 37 tests" 
+and "They all weight 37 pounds" should be excluded as well.
 
 Question 3
 The “View Data” function in the Tableau workspace might be helpful for answering this question.
@@ -28,12 +38,44 @@ Please review Lesson 3 Let's Get Started to review how to arrive at the correct 
 Question 7
 Please review Lesson 3 Let's Get Started to review how to arrive at the correct answer.
 
+
 Question 8
 Please check that you are using the appropriate aggregation, and review Lesson 3
 Let's Get Started and the course Practice Exercises for information about how to arrive at the correct answer.
 
+# Variables & Filters:
+There are three variables we are interested in: Dog Fixed, Breed Type and Average Number of Test Completed.
+Filters: Dog ID( Group) Other
+
+# Summary: 
+There are three variables we are interested in: Dog Fixed, Breed Type and Average Number of Test Completed.
+
+# Some immediate observations:
+1. On average, fixed dogs completed more tests than non-fixed dogs on all breed types. All the bars in fixed dog category 
+(1) are higher than in the non-fixed category (0)
+2. The greatest difference is between the Mixed Breed/Other/I don't Know.
+
+These are the only choices in the answer that are supported by data.
+
 Question 9
 Please review Lesson 3 Let's Get Started to review how to arrive at the correct answer.
+# Summary: 
+In addition to the three variables in Q8, there is an additional variable we are also interested in: DNA Tested. Add "DNA Tested" 
+to the Column shelf in the order shown. Place the variables in this order will make analyzing the answer choices in Q9 
+more straight forward.
+
+# Steps:
+Filter out the outliers in Dog ID (those with Sign-In Count greater than 175), since those accounts were created to test the system 
+(it was mentioned in page 2 of the exercise PDF file).
+
+# Analysis:
+Answer choice: "The Cross-Breed dogs that were DNA tested but NOT fixed were mostly Labrador Retriever-Golden Retriever Mixes".
+--->In the block for DNA tested but not fixed, the 3rd block from the left, right-click on the bar for Cross Breed, click on 
+View Data and select Full Data at the bottom. You can immediately tell that the dogs in this category are mostly
+Labrador Retriever-Golden Retriever Mixes.
+
+
+
 Question 10
 Check your filters, and make sure your aggregations are appropriate. 
 See Practice Exercise 4 for more information about how to make the graph.
