@@ -5,7 +5,7 @@
 Variables:Dog ID, User ID, Country, State, Sign in Count, Filter.
 Mark Down: Details, Text
 a) How many unique dogs are in the dataset (Indicated by the number of unique entires in Dog ID)?
-b) How many unique (human) users are in the dataset (indicated by the numgber of unique entries in User ID)?
+b) How many unique (human) users are in the dataset (indicated by the number of unique entries in User ID)?
 
 ##Tableau
 Columns:
