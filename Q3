@@ -18,16 +18,26 @@ questions, place this calculated field in the Filters card and select only View.
 Question 1
 Make sure you are using the appropriate variables to address this question.
 
-
-Question 2
-It might help to color-code your graph for “Test Name.”
-
 #Tableau
 Column: Rank by DogID
 Rows: CNT(Number of records)
 Filters: Test Accounts: View
-Markdown: [Color: Test Name]
+Markdown: [Color: Subcategory Name]
 
+# Analysis
+--> The tallest four bars, in other words, highest record counts, are mostly orange, the color assigned by Tableau for the Empathy 
+subcategory. There is still a little of orange in the 5th bar, but compared to the first 4 bars, it is marginal, indicating a large 
+decrease in the Empathy subcategory in terms of counts of records. Indeed, if look at the big picture and examine each color from where 
+it dominates the bars to where you have to look hard to see it (where a subcategory has a huge decrease in number of records) and 
+compare the difference in Counts of Number of Records when you can easily see the color and when you have to look hard to find it, 
+the difference in the orange color is the biggest, indicating that the largest drop-off occurs in the subcategory represented by the 
+orange color. That's Empathy.
+
+--> That graph shows that for those dogs that did not complete the 20 questions of the Assessment, most of them dropped off after they 
+completed the Empathy subcategory. So, what do you think the answer to Q1 is? True or False. It should be easy to tell by now.
+
+Question 2
+It might help to color-code your graph for “Test Name.”
 --> Each color now represents a test name. Using the same approach as in Q1 and each color from where it almost dominates the whole bar 
 to where it is barely visible and compare the difference in Counts of Number of Records. You should find that the largest difference is
 in the dark green color, the 4th bar that represents the Eye Contact game. Point your cursor to the 5th bar and carefully examine 
@@ -43,9 +53,22 @@ the customers after the test accounts are taken out.
 
 Question 4
 Please check whether you are examining the correct variables or applying an inappropriate aggregation.
+
+
 Question 5
 Please see Lesson 5 Dashboards and Story Points to review how to use date fields in Tableau. 
 Pay close attention to the consequences of treating dates as dimensions or measures.
+
+--> Place Created At in Columns and Number of Records in Rows. As for the previous questions, place Test Account in Filters and select 
+only View (please my explanation for Q1.)
+--> Click on the Created At pill and choose Month (the second one that has the example "May 2015" next to it)
+
+# Tableau
+Column: Month(Correc...)
+Rows: CNT(Number of Records)
+Filters: Test Accounts View
+--> Point your cursor to the highest point of the graph and you should see the month Q5 is asking for.
+
 Question 6
 Please see Practice Exercise 2 of this week to review how to use Tableau to answer this question.
 Question 7
