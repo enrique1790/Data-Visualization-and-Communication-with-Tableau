@@ -218,29 +218,34 @@ Firstly, please clean the data according to the exercise, excluding dog ids with
 1) rows: user id (count distinct)
 2) filter: remove grouped dog id
 3) make sure to click aggregate measures in analysis
+#16,261
 
 **Problem 2**
 1) columns: country, dimension, breed
 2) rows: total tests completed (sum), weight
 3) filter: state - 37
 4) make sure to unclick aggregate measures in analysis
+# They are all from Estonia
 
 **Problem 3** 
 1) rows: sign in count(sum)
 2) filter: remove the grouped dog id this time, sign in count > 175
 3) view all data
 4) make sure to unclick aggregate measures in analysis
+# They are all Shih Tzus that weigh 190 lbs
 
 **Problem 4**
 1) columns: dimension
 2) rows: total tests completed (avg)
 3) filter: dimension - exclude 0
 4) make sure to click aggregate measures in analysis
+#
 
 **Problem 5** 
 1) columns: breed group
 2) rows: total tests completed (both avg and median)
 3) make sure to click aggregate measured in analysis
+#
 
 **Problem 6** 
 1) columns: breed type
