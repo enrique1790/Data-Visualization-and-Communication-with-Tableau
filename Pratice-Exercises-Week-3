@@ -12,7 +12,7 @@ https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/YNA
  
 Exercise  2. 
 Variables: 
-Column: YEAR(Time Correction), QUARTER(Time Correction), DAY(Time Correction), HOUR(Time Correction)
+Column: YEAR(Time Correction), QUARTER(Time Correction), MONTH(Time Correction), DAY(Time Correction), HOUR(Time Correction)
 Rows: SUM(Number of Records)
 Filters: WEEKDAY(Created at)
 
