@@ -136,13 +136,20 @@ of Popular Hybrids who were fixed."
 Question 10
 Check your filters, and make sure your aggregations are appropriate. 
 See Practice Exercise 4 for more information about how to make the graph.
+Note: 
+Hover over the African country for the answer.
 
 Question 11
 Make sure your aggregations are appropriate, and remember that you can hover over the state to see 
 the precise number of records in the tool tip.
 
+Note:
+edit axis from greatest to least for the answer
+
 Question 13
 Please review video https://www.youtube.com/watch?v=o2q-L3auqW8
+# Example in the video demonstrates how an Outlier ,when included in a dataset, can cause both the Mean and standard deviations 
+calucations to be very different. When Compared to the original calculation which didn't include a outlier. 
 
 Question 14
 Refer to Lesson 6 Line Graphs and Box Plots to review how to answer this type of question.
@@ -337,11 +344,11 @@ Firstly, please clean the data according to the exercise, excluding dog ids with
 4) order the columns from max to min
 5) make sure to click aggregate measures in analysis
 
-### 
+### CA
 
 **Problem 12** 
 
-### 
+### ME,NC,ND,SD,WY
 
 1) columns: state
 2) rows: total tests completed (median)
@@ -351,7 +358,7 @@ Firstly, please clean the data according to the exercise, excluding dog ids with
 **Problem 13** 
 please refer to the the reading material provided in week 2
 
-### 
+### Average aggregations are more sensitive to extreme values than median aggregations
 
 **Problem 14** 
 1) as above but set the filter: total tests completed < 19
