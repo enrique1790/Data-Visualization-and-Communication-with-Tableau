@@ -9,6 +9,9 @@ Question 1
 Consider whether there are other ways to aggregate the variable you are examining that would be more 
 appropriate for answering this question.
 
+Note:
+Hover the mouse over Outlier for the answer
+
 # Tableau
 
 Question 2
@@ -24,19 +27,59 @@ and "They all weight 37 pounds" should be excluded as well.
 
 Question 3
 The “View Data” function in the Tableau workspace might be helpful for answering this question.
+Note:
+For check these hypothesis, You put Avg(total test completed) in column shelf and drag DNA tested, dog fixed and breed type respectively in row 
+shelf and also same 3 variable drag on filter area. Now you can check first hypothesis as only select DNA tested option in filter option
+(don't select breed type and dog fixed) and you can see, the avg of DNA tested dog (DNA=1) completed more test than not tested DNA dog. 
+Now check second hypothesis as which type of breed interacted more during completed test, So, you only select two variable now, DNA 
+tested and Breed type in shelf (don't select dog fixed) , you can see, Cross breed is highest avg completed test in DNA tested dog group
+and Popular hybrid is highest avg completed test in not DNA test dog group.
 
 Question 4
 Make sure you have filtered out the group of dogs whose data we know is not real (see Exercise 1) 
 and double-check that the type of aggregation you are using in your analysis is appropriate.
+Note:
+For check first question. You can solve this question in two ways either use of map or use of bar chart. Put dog id as count distinct 
+in row shelf and country variable in column shelf and click "Show me" card (right hand corner side option) and click on map. 
+You can see, the US country apparent more as dog user who completed test. Second way, make a group of US and non US country 
+(how! ok, put country in row shelf and right click "abc" in front of US option in table and select group option). Now you can check, 
+put country (group) variable in column shelf and avg(total test completed) in row shelf. Now you can see, US country is more dog
+completed test than Non other US country.
+
+For check second question. Put country(group) variable in filter area and CNTD(dog id) in row shelf and state variable in column shelf. 
+Now, there two option in country (group) select US. The result will come out as CA region in US country have more dog user who completed
+test and after CA (California) region, NY (New York) have more dog user who completed test in US country.
+
+Comment: 
+all the dimensions' average number of tests completed fall in a very small range between 21.77 (ace) and 21.23 (stranger), therefore the 
+differences among 9 dimensions are very small. So, I would say that they are actually very similar...
 
 Question 5
 Make sure the type of aggregation you are using in your analysis is appropriate.
+Note:
+If you put "Breed group" on column shelf and "total test completed" in row shelf . You can see now, the first option in quiz is wrong. 
+Now again, covert your "total test completed" variable from sum to avg and median (do one by one). After convert , the result more 
+apparent as which breed group completed more test and which breed group completed least test overall.
+
+Put Total test completed variable in filter area as well as row shelf . After that drag both "Mean ITI and Median ITI" variable in 
+column shelf. You can see, there are two graph, first do de-aggregate analysis as click Analysis in menu option and click off aggregate
+measure then right click on empty space in both graph and select "trend line -> show trend lines" option. the regression line will 
+appear on the graph. Now right click on total test completed variable in filter area then select "show filter" option. Now you can see a
+filter card will appear on right side corner and drag total test completed from 1 to 19 (because we want to see, the data from dogs who 
+completed 20 or more tests ). You can see, the regression line are opposite because one outliear appear in this test (see closely one 
+point is far away) . You try to explore this outliear as right click on this point and see view data. You can find as this dog id, 
+completed 2 test and the completion difference between two test is 650 days. (Woow! i think maybe, User was forgot after taking first 
+game then remember after two year, ohh yes, now time to complete second test). :P
 
 Question 6
 Please review Lesson 3 Let's Get Started to review how to arrive at the correct answer.
+Note:
+set axis from greatest to least
 
 Question 7
 Please review Lesson 3 Let's Get Started to review how to arrive at the correct answer.
+Note:
+3. Hover on the bars... you should see the results
 
 Question 8
 Please check that you are using the appropriate aggregation, and review Lesson 3
@@ -218,49 +261,59 @@ Firstly, please clean the data according to the exercise, excluding dog ids with
 1) rows: user id (count distinct)
 2) filter: remove grouped dog id
 3) make sure to click aggregate measures in analysis
-#16,261
+### 16,261
 
 **Problem 2**
 1) columns: country, dimension, breed
 2) rows: total tests completed (sum), weight
 3) filter: state - 37
 4) make sure to unclick aggregate measures in analysis
-# They are all from Estonia
+
+### They are all from Estonia
 
 **Problem 3** 
 1) rows: sign in count(sum)
 2) filter: remove the grouped dog id this time, sign in count > 175
 3) view all data
 4) make sure to unclick aggregate measures in analysis
-# They are all Shih Tzus that weigh 190 lbs
+
+### They are all Shih Tzus that weigh 190 lbs
 
 **Problem 4**
 1) columns: dimension
 2) rows: total tests completed (avg)
 3) filter: dimension - exclude 0
 4) make sure to click aggregate measures in analysis
-#
+
+### None of them. All of the personality dimensions have very similar completion rates.
 
 **Problem 5** 
 1) columns: breed group
 2) rows: total tests completed (both avg and median)
 3) make sure to click aggregate measured in analysis
-#
+
+### Toy dogs complete the least number of tests
 
 **Problem 6** 
 1) columns: breed type
 2) total tests completed (median)
 3) make sure to click aggregate measures in analysis
 
+### Socialite
+
 **Problem 7** 
 1) columns: breed type
 2) total tests completed (median)
 3) make sure to click aggregate measures in analysis
 
+### 
+
 **Problem 8**
 1) columns: breed type, dog fixed
 2) rows: total tests completed (avg)
 3) make sure to click aggregate measures in analysis
+
+### 
 
 **Problem 9** 
 1) columns: breed type, dog fixed
@@ -268,10 +321,14 @@ Firstly, please clean the data according to the exercise, excluding dog ids with
 3) 1: tested/fixed 0: not tested/not fixed
 4) make sure to click aggregate measures in analysis
 
+### 
+
 **Problem 10** 
 1) columns: country
 2) rows: dog id (count distinct)
 3) show me column: choose map
+
+### 
 
 **Problem 11** 
 1) columns: state
@@ -280,7 +337,11 @@ Firstly, please clean the data according to the exercise, excluding dog ids with
 4) order the columns from max to min
 5) make sure to click aggregate measures in analysis
 
+### 
+
 **Problem 12** 
+
+### 
 
 1) columns: state
 2) rows: total tests completed (median)
@@ -290,9 +351,13 @@ Firstly, please clean the data according to the exercise, excluding dog ids with
 **Problem 13** 
 please refer to the the reading material provided in week 2
 
+### 
+
 **Problem 14** 
 1) as above but set the filter: total tests completed < 19
 2) as above (15)
+
+### 
 
 **Problem 15**
 1) to get the chart:
@@ -306,8 +371,7 @@ edit Axis: Fixed 0-10,000
 whether positive or negative: check the slope(the coefficient with median or mean ITI)
 significant: p < 0.05 non-significant: p > 0.05
 
-
-
+### 
 
 
 
