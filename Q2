@@ -313,14 +313,15 @@ Firstly, please clean the data according to the exercise, excluding dog ids with
 2) total tests completed (median)
 3) make sure to click aggregate measures in analysis
 
-### 
+### All breed types complete a median of 7 tests
 
 **Problem 8**
 1) columns: breed type, dog fixed
 2) rows: total tests completed (avg)
 3) make sure to click aggregate measures in analysis
 
-### 
+### Fixed dogs complete less tests than non-fixed dogs in the Cross-Breed and Mixed Breed/ I Don’t Know breed categories, but not in 
+the other breed categories
 
 **Problem 9** 
 1) columns: breed type, dog fixed
@@ -328,14 +329,15 @@ Firstly, please clean the data according to the exercise, excluding dog ids with
 3) 1: tested/fixed 0: not tested/not fixed
 4) make sure to click aggregate measures in analysis
 
-### 
+### DNA-tested dogs completed more tests than dogs that were NOT DNA tested in all categories except for the category of Popular Hybrids
+who were fixed
 
 **Problem 10** 
 1) columns: country
 2) rows: dog id (count distinct)
 3) show me column: choose map
 
-### 
+### N/A
 
 **Problem 11** 
 1) columns: state
