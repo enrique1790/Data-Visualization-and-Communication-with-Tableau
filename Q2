@@ -28,10 +28,10 @@ and "They all weight 37 pounds" should be excluded as well.
 Question 3
 The “View Data” function in the Tableau workspace might be helpful for answering this question.
 Note:
-For check these hypothesis, You put Avg(total test completed) in column shelf and drag DNA tested, dog fixed and breed type respectively in row 
-shelf and also same 3 variable drag on filter area. Now you can check first hypothesis as only select DNA tested option in filter option
-(don't select breed type and dog fixed) and you can see, the avg of DNA tested dog (DNA=1) completed more test than not tested DNA dog. 
-Now check second hypothesis as which type of breed interacted more during completed test, So, you only select two variable now, DNA 
+For check these hypothesis, You put Avg(total test completed) in column shelf and drag DNA tested, dog fixed and breed type respectively
+in row shelf and also same 3 variable drag on filter area. Now you can check first hypothesis as only select DNA tested option in filter
+option (don't select breed type and dog fixed) and you can see, the avg of DNA tested dog (DNA=1) completed more test than not tested DNA 
+dog. Now check second hypothesis as which type of breed interacted more during completed test, So, you only select two variable now, DNA 
 tested and Breed type in shelf (don't select dog fixed) , you can see, Cross breed is highest avg completed test in DNA tested dog group
 and Popular hybrid is highest avg completed test in not DNA test dog group.
 
@@ -300,6 +300,9 @@ Firstly, please clean the data according to the exercise, excluding dog ids with
 3) make sure to click aggregate measured in analysis
 
 ### Toy dogs complete the least number of tests
+Note:
+AVG Total Test Completed: 8.461
+Median Total Test Complted: 5.000
 
 **Problem 6** 
 1) columns: breed type
@@ -320,8 +323,10 @@ Firstly, please clean the data according to the exercise, excluding dog ids with
 2) rows: total tests completed (avg)
 3) make sure to click aggregate measures in analysis
 
-### Fixed dogs complete less tests than non-fixed dogs in the Cross-Breed and Mixed Breed/ I Don’t Know breed categories, but not in 
-the other breed categories
+### Fixed dogs complete more tests than non-fixed dogs in all breed types
+
+### The greatest difference between the average number of tests completed by fixed vs. non-fixed dogs occurs in the Mixed Breed/ I
+Don’t Know breed category
 
 **Problem 9** 
 1) columns: breed type, dog fixed
@@ -331,6 +336,10 @@ the other breed categories
 
 ### DNA-tested dogs completed more tests than dogs that were NOT DNA tested in all categories except for the category of Popular Hybrids
 who were fixed
+
+### There was only one dog in the Popular Hybrid breed category who was DNA tested but not fixed
+
+### The Cross-Breed dogs that were DNA tested but NOT fixed were mostly Labrador Retriever-Golden Retriever Mixes
 
 **Problem 10** 
 1) columns: country
