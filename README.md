@@ -79,3 +79,15 @@
 3. Explain your thinking to thers
 4. Report your progress 
 5. Can work as a team
+
+# Week 1 Outline
+[Week 1:](https://jbsbraindumpdatabase.wordpress.com/2015/12/23/week-1-data-visualization-and-communication-with-tableau/)
+
+# Week 2 Outline
+[Week 2:](https://jbsbraindumpdatabase.wordpress.com/2016/01/11/data-visualization-and-communication-with-tableau-week-2/)
+
+# Week 3 Outline
+[Week 3:](https://jbsbraindumpdatabase.wordpress.com/2016/01/16/data-visualization-and-communication-with-tableau-week-3/)
+
+# Week 4 Outline
+[Week 4:](https://jbsbraindumpdatabase.wordpress.com/2016/01/19/data-visualization-and-communication-with-tableau-week-4/)
