@@ -41,6 +41,10 @@ END
 # Show % of total for Free Start Users and Not Free Start Users separately.
 *Go to "Analysis" then choose "percentage of" and check "Table".
 *Then If needed: Right-click on your variable and choose "compute using"
+
+Free start users: Dogs 57.2% complete 20 tests
+Non free start users: Dogs 29.14% complete 20 tests
+
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/KZQKjpyCEemSyg4C0OIFUg
 
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/cdcu6NNQEeW17wrgkMLDIQ
