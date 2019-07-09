@@ -27,15 +27,15 @@ for Free Start users vs non-Free Start users?"
 -->click on the second CNTD(DogID), choose Edit Table Calculation... from the drop down list. When the dialog box pops up, 
 choose Specific Dimension and Rank by DogID.
 
+# Show % of total for Free Start Users and Not Free Start Users separately.
+*Go to "Analysis" then choose "percentage of" and check "Table".
+*Then If needed: Right-click on your variable and choose "compute using"
+
 #Tableau
 Columns: Free Start User (group), Rank by DogID
 Rows: CNTD(Dog ID), CNTD(Dog ID)
 Filters: Exclude Test Data
 Color: Free Start User
-
-# Show % of total for Free Start Users and Not Free Start Users separately.
-*Go to "Analysis" then choose "percentage of" and check "Table".
-*Then If needed: Right-click on your variable and choose "compute using"
 
 #Conclusion:
 So, only 5.72% of free-starters finished the 20-question Assessment, while 29.14% of non-free-starters finished the 20-question 
