@@ -22,8 +22,10 @@ Formula: DATAADD('hour',[Diff from UTC], [Created at])
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/m7bq4quwEei7igpEb2Etig
  
 Exercise  3.
-#Data
-Variables: Free Start User, Rank by DogID, Free Start User(Group)
+Question:  "Can you figure out how to set the advanced options so that the table calculation computes percentages separately 
+for Free Start users vs non-Free Start users?"
+-->click on the second CNTD(DogID), choose Edit Table Calculation... from the drop down list. When the dialog box pops up, 
+choose Specific Dimension and Rank by DogID.
 
 #Tableau
 Columns: Free Start User (group), Rank by DogID
@@ -31,24 +33,18 @@ Rows: CNTD(Dog ID), CNTD(Dog ID)
 Filters: Exclude Test Data
 Color: Free Start User
 
-# Formula
-IF [Weight] = (190)
-AND [Breed]=='Shih Tzu'
-THEN 'Exlude'
-ELSE 'keep'
-END
-
 # Show % of total for Free Start Users and Not Free Start Users separately.
 *Go to "Analysis" then choose "percentage of" and check "Table".
 *Then If needed: Right-click on your variable and choose "compute using"
 
-Free start users: Dogs 57.2% complete 20 tests
-Non free start users: Dogs 29.14% complete 20 tests
+#Conclusion:
+So, only 5.72% of free-starters finished the 20-question Assessment, while 29.14% of non-free-starters finished the 20-question 
+Assessment. The marketing strategy of giving the first four assessment tests for free did not seem to motivate people to finish more
+tests with their dogs.
 
+Link:
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/KZQKjpyCEemSyg4C0OIFUg
-
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/cdcu6NNQEeW17wrgkMLDIQ
-https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/_FQIcXIXEei1pw6GHpVmeA
  
 Exercise  4.
 #Data
