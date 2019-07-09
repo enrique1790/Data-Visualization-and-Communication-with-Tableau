@@ -42,14 +42,21 @@ So, only 5.72% of free-starters finished the 20-question Assessment, while 29.14
 Assessment. The marketing strategy of giving the first four assessment tests for free did not seem to motivate people to finish more
 tests with their dogs.
 
-Link:
+Links:
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/KZQKjpyCEemSyg4C0OIFUg
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/cdcu6NNQEeW17wrgkMLDIQ
  
 Exercise  4.
-#Data
-Variables: Rank by DogID, Rank by UserID, Group of Dog IDs, Text Name, Created at, Test Name, 
-Mark Cards: Text, Details 
+Questions: Can you make a similar calculation that ranks the tests completed by each user, mimicking the information provided in Rank
+by UserID? Can you figure out how to include both ranks in the same table?
+
+Steps:
+1. Created calculated field
+a. RANK(ATTR([Created at]),'asc')
+2. Drag Rank from Measures to Marks Detail
+3. Edit table calculation
+a. Computing using: Specific Dimensions with Test name and Created at
+4. Drag Rank to Row shelf
 
 #Tableau
 Columns:
@@ -57,7 +64,8 @@ Rows: Dog ID, Test name, DAteRank, Day(created)
 Filters: Dog ID (group) Random
 Details: DAteRank
 
-
+Links
+https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/yrDl_sMvEeiALwrKWTa7ig
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/kpBB3nPmEeiPrBLBSH_lGA
  
 Exercise  5: 
