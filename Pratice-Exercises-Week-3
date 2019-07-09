@@ -1,7 +1,6 @@
 Exercise  1.
-#Data
-Variables: 
-Mark Cards: 
+Questions: After which tets do users tend to drop off? Do they drop off in the middle of the tests within a subcategory, or at the
+end of all the tests associated with a subcategory? what could this mean for Dognition?
 
 #Tableau
 Columns: Test Name
@@ -9,20 +8,24 @@ Rows: CNT(Number of Records)
 Filters: Test name
 
 Commentary: observe the red arrows, at those points we see the highest number of test drops.
-https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/YNAGX6OkEeiENw4S5vuL9g
+Link: https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/YNAGX6OkEeiENw4S5vuL9g
  
-Exercise  2. 
-Variables: 
-Column: YEAR(Time Correction), QUARTER(Time Correction), MONTH(Time Correction), DAY(Time Correction), HOUR(Time Correction)
+Exercise  2.
+Questions: Do those hours change at different times during the week? What implications could this have for when you should send
+reminders or advertisements to customers or pontential customers?
+
+#Tableau
+Column: HOUR(Time Correction)
 Rows: SUM(Number of Records)
-Filters: WEEKDAY(Created at)
+Filters: WEEKDAY(Time Correction)
+"To aid in this, bring another copy of your (Corrected) Created At variable to the filter shelf"
 
 Formula: DATAADD('hour',[Diff from UTC], [Created at])
 
-https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/m7bq4quwEei7igpEb2Etig
+Link: https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/m7bq4quwEei7igpEb2Etig
  
 Exercise  3.
-Question:  "Can you figure out how to set the advanced options so that the table calculation computes percentages separately 
+Questions:  "Can you figure out how to set the advanced options so that the table calculation computes percentages separately 
 for Free Start users vs non-Free Start users?"
 -->click on the second CNTD(DogID), choose Edit Table Calculation... from the drop down list. When the dialog box pops up, 
 choose Specific Dimension and Rank by DogID.
