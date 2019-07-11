@@ -69,8 +69,7 @@ Quiz #4
 1. The hourglass model is a framework for structuring effective business presentations.
 Which of the following is NOT part of the hourglass model? Choose all that apply.
 
-Answer: A 30-60 second presentation of the “big picture” of the problem you are trying to solve, A complete description of all the 
-analyses you tried, Statement of the benefits that will result based on your recommendations
+Answer: Opening your presentation with an agenda, A complete description of all the analyses you tried
 
 Comments: Begin your presentation with your agenda and end with a story. Correct!
 The model resebles an hourglass because it suggets that you start your presentation with the big pciture, narrow in to some details, 
@@ -82,12 +81,8 @@ that are most likely to leave a lasting impact.
 2. Beginning your business presentation in the middle of the plot of a motivational story can sometimes be an effective way 
 to lead into your business recommendation.
 Answer: True
-Comments:
-#Jana’s Tips and Tricks
-Try start in the middle of a story
-Use details
-If possible, use positive emotional story instead of negative
-Use large, high quality pictures, use picture that is looking directly into to other people’s eyes, or makes you feel like you are there
+Comments: Correct! Beginning your business presentation in the middle of the plot of a motivational story can create a sense of 
+momentum and expectation for what will come next, which can sometimes be an effective way to lead into your business recommendation.
 
 3. The storyboarding process includes:
 Answer: all of the above
@@ -116,13 +111,14 @@ Steps for Storyboarding:
 is likely to be controversial, you should order the stem of your presentation hourglass so that the:
 
 Answers: least controversial point is presented first.
-Comments: Steps for Storyboarding: Organize them in the most compelling order about your recommendation. If it is controversial
-Start with least controversial (people are most likely to agree if you get them saying “yes” first
+Comments:Correct! People are more likely to be persuaded by an argument if you get them into a general feeling of agreement first, 
+so starting with your least controversial point will get your audience used to saying “yes” before you present them with something to 
+which they might want to say “no.”
 
 5.The logical fallacy of overgeneralization can be avoided by removing outliers and rows with missing data.
-Answer: True
-Comment: You assume that what you see in your data set would be representative of a larger group.This can also occur when you have a 
-ton of missing data in columns/rows that are you using for your analysis.
+Answer: False
+Comment: Unfortunately not. The outliers or missing data may share common characteristics, so removing them without prior examination 
+could bias your data. If the data are biased, removing them will lead to overgeneralized conclusions.
 
 6. To test whether a certain advertising campaign would work, an analytics team sorts their customer list from lowest to 
 highest customer ID number, and then sends their advertisement to the first 1000 customers on the list. 
@@ -139,17 +135,22 @@ Comment: The fallacy is over-generalization (or hasty generalization).
 
 7. When two variables are correlated, one variable does not cause the other variable.
 
-Answer: True
-Comment: Always be wary of drawing causation conclusions
+Answer: False
+Comment: Always be wary of drawing causation conclusions. Although a correlation between two variables does not mean one variable 
+must cause the other variable, it still permits the possibility that one variable causes the other.
 
 8. The best way to understand the nature of a relationship between two variables is to run a test.
 
 Answer: True
-Comment: The only way to confirm is to run an experiment using the scientific method. One common method is A/B testing
+Comment: Correct! The only way to find out if one factor causes another is to use the scientific method and run a test or experiment 
+where you change the variable you think is causing the effect you want, and hold all other factors constant . Ideally you would start
+by running the tests in small-scale pilot scenarios where the stakes are lower, before you run larger tests or make the recommendation
+to implement a full-scale change.
 
 9. Which charts should you NOT use often in business presentations? Choose all that apply.
-Answer: 3D charts
-Comments: Bar,Line,Pie,Scatterplots
+Answer: 3D charts,Scatter plots
+Comments: Correct! Bar charts and line charts are very effective, and pie charts can be effective when they display small numbers of
+categories. Scatter plots are too complicated for general audiences, and 3D charts tend to be misleading.
 
 10. When you want to represent very detailed and nuanced information about continuous variables, given humans’ ability to perceive
 relative differences along different kinds of visual attributes, which of the following attributes should you exploit in your 
