@@ -105,16 +105,34 @@ The reason for their decision was that analyzing the results in their current fo
 8. The best way to understand the nature of a relationship between two variables is to run a test.
 
 9. Which charts should you NOT use often in business presentations? Choose all that apply.
+Answer: 3D charts
+Comments: Bar,Line,Pie,Scatterplots
 
 10. When you want to represent very detailed and nuanced information about continuous variables, given humans’ ability to perceive
 relative differences along different kinds of visual attributes, which of the following attributes should you exploit in your 
 visualizations? Choose the best 2 options.
 
+Answer: position, length
+Comments: Humans have a clear hierchy of how accurate we are at perceiving physical differences. We are great at seeing differences 
+in position or length, but not that good at color or hue.
+
+
 11. If you are in a situation where you MUST use colorbars to represent detailed information about a continuous variable, you should:
+Answer: use a gray scale that goes from black to white. (guess)
+Comments: Most color bars unit do not equal one unit of value change.
+Jana’s tips: Do NOT use color to convey detailed quantitative differences in the values of continuous variables. DO use colors to 
+illustrate general patterns and code for different categories of categorical variables. Or to Draw attention to something
 
 12. Visualizations for persuasion should: (Choose all that apply)
+Answer:direct your audience’s eyes to the precise points of the data that support your argument,show selected pieces of data, show the
+visualizations in an order that helps your audience evaluate the options clearly.
+
+Comments: When you are presenting the data you have already identified what you want the viewer to look at. Use visual contrast to 
+direct the viewers eyes. Don’t just use different colors but use contrast.
 
 13. Which of the following reflect(s) the principles of maximizing the data-ink ratio? Choose all that apply.
+Answer:
+Comment:
 
 14.  It’s a good idea to apply the rule of thirds to: (Choose all that apply)
 
