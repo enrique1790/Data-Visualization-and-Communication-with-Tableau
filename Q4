@@ -87,7 +87,14 @@ to lead into your business recommendation.
 4. According to the psychology literature, if the business recommendation you are going to make in a business presentation 
 is likely to be controversial, you should order the stem of your presentation hourglass so that the:
 
+Answers:
+Comments: Steps for Storyboarding: Organize them in the most compelling order about your recommendation. If it is controversial
+Start with least controversial (people are most likely to agree if you get them saying “yes” first
+
 5.The logical fallacy of overgeneralization can be avoided by removing outliers and rows with missing data.
+Answer: True
+Comment: You assume that what you see in your data set would be representative of a larger group.This can also occur when you have a 
+ton of missing data in columns/rows that are you using for your analysis.
 
 6. To test whether a certain advertising campaign would work, an analytics team sorts their customer list from lowest to 
 highest customer ID number, and then sends their advertisement to the first 1000 customers on the list. 
@@ -99,10 +106,18 @@ The analytics team decided the test was invalid and needed to be repeated.
 The reason for their decision was that analyzing the results in their current form would result in the following logical fallacy
 (or fallacies):
 
+Answer: Over-generalization
+Comment: The fallacy is over-generalization (or hasty generalization). 
+
 7. When two variables are correlated, one variable does not cause the other variable.
--->When two variables are correlated, one variable does not NECESSARILY cause the other variable, but there CAN be a cause and effect.
+
+Answer: True
+Comment: Always be wary of drawing causation conclusions
 
 8. The best way to understand the nature of a relationship between two variables is to run a test.
+
+Answer: True
+Comment: The only way to confirm is to run an experiment using the scientific method. One common method is A/B testing
 
 9. Which charts should you NOT use often in business presentations? Choose all that apply.
 Answer: 3D charts
@@ -131,8 +146,11 @@ Comments: When you are presenting the data you have already identified what you 
 direct the viewers eyes. Don’t just use different colors but use contrast.
 
 13. Which of the following reflect(s) the principles of maximizing the data-ink ratio? Choose all that apply.
-Answer:
-Comment:
+
+Answer: Making the scales and labels of the graph easy to read,Including a bar at the bottom of the slide to indicate how far 
+along you are in your presentation 
+Comment: Use the rule of thirds for transition slides, put text and images along the lines instead of centered.
+Data slides should be front and center
 
 14.  It’s a good idea to apply the rule of thirds to: (Choose all that apply)
 
