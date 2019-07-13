@@ -5,7 +5,7 @@ end of all the tests associated with a subcategory? what could this mean for Dog
 #Tableau
 Columns: Test Name
 Rows: CNT(Number of Records)
-Filters: Test name
+Color: Test name
 
 Commentary: observe the red arrows, at those points we see the highest number of test drops.
 Link: https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/YNAGX6OkEeiENw4S5vuL9g
