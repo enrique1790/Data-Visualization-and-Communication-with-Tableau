@@ -20,15 +20,14 @@ Rows: SUM(Number of Records)
 Filters: WEEKDAY(Time Correction)
 "To aid in this, bring another copy of your (Corrected) Created At variable to the filter shelf"
 
-Formula: DATAADD('hour',[Diff from UTC], [Created at])
-
-Link: https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/m7bq4quwEei7igpEb2Etig
+Formula: DATEADD('hour',[Diff from UTC], [Created at])
+Link: 
+https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/QKbBPNCtEeifXQ4Hxiq4Fg
+https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/m7bq4quwEei7igpEb2Etig
  
 Exercise  3.
 Questions:  "Can you figure out how to set the advanced options so that the table calculation computes percentages separately 
 for Free Start users vs non-Free Start users?"
--->click on the second CNTD(DogID), choose Edit Table Calculation... from the drop down list. When the dialog box pops up, 
-choose Specific Dimension and Rank by DogID.
 
 # Show % of total for Free Start Users and Not Free Start Users separately.
 *Go to "Analysis" then choose "percentage of" and check "Table".
@@ -39,6 +38,9 @@ Columns: Free Start User (group), Rank by DogID
 Rows: CNTD(Dog ID), CNTD(Dog ID)
 Filters: Exclude Test Data
 Color: Free Start User
+-->click on the second CNTD(DogID), choose Edit Table Calculation... from the drop down list. When the dialog box pops up, 
+choose Specific Dimension and Rank by DogID.
+-- > Edit % of Total Distinct count of Dog ID --> Set Axis to automatic
 
 #Conclusion:
 So, only 5.72% of free-starters finished the 20-question Assessment, while 29.14% of non-free-starters finished the 20-question 
@@ -63,9 +65,16 @@ a. Computing using: Specific Dimensions with Test name and Created at
 
 #Tableau
 Columns:
-Rows: Dog ID, Test name, DAteRank, Day(created)
-Filters: Dog ID (group) Random
-Details: DAteRank
+Rows: Dog ID, Test name, Rank (Created at) 
+Text: Minute(Created at) 
+-->Place Created At in Text. For level of details, select the Minute in the second block in the pop-up menu. I recommend selecting 
+"Minute", since a lot of the tests were created during the same hour. If "Hour" is selected, ranking might not work.
+--> Analysis click on Created Calculated Field...
+--> Choose ascending, 'asc'. Otherwise, you would see the last test being ranked #1. Place the calculated field in Details. 
+Click and choose Edit Table Calculation... Then, choose the following parameters: Specific Dimensions, Minute of Created At, Test Name.
+--> Convert the calculated field to dimension by selecting Discrete.
+--> Place the calculated field in the Rows shelf, behind Test Name.
+
 
 Links
 https://www.coursera.org/learn/analytics-tableau/discussions/weeks/3/threads/yrDl_sMvEeiALwrKWTa7ig
