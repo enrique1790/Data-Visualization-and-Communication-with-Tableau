@@ -295,7 +295,7 @@ dogs. It says 19. That's 24-hour format. Subtract 12 to get the PM hour.Isn't th
 7.In the dognition_data_no_aggregation data set, approximately what percentage of users who begin taking the 
 Dognition Assessment complete 20 tests?
 
-Answer: Either 23% or 25% 
+Answer: 23% 
 Comment:The bar chart at the bottom now has the percentage of dogs that completed each number of tests. To find out the percentage
 that completed 20 tests, point your cursor at the bar of bottom bar chart that represented 20.
 Isn't Q7 so easy that the credit is practically being handed to you for free?
@@ -345,7 +345,7 @@ to rank each test a dog completed by its time stamp. The following field(s) will
 Partitioning field in the calculation configuration page in your new calculation meant to rank each test a human user completed: 
 (check all that apply)
 
-Answer: Test Name
+Answer: User ID
 Comments: Q12 is very similar to Q11. Q11 uses Dog ID as a partition field. The ranking starts all over at each change of Dog ID. 
 The only difference between Q11 and Q12 is that while Dog ID is used in Q11, User ID should be used in Q12. Please refer to my 
 explanation for Q11 for the fine details.There is only one correct choice. With the above being said, isn't it obvious which choice 
