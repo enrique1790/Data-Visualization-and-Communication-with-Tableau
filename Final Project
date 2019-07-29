@@ -54,9 +54,11 @@ Summary:
 
 # Analysis Four: The story behind drop off rates in subcategories 
 Outline: (Three drop of trends)
+subcategories: 3
 * Empathy
 * Communication
 * Cunning
+outcomes: 2
 * Test completed
 * Test still in progress
 Summary: Analysis of Completed vs tests still in progress
