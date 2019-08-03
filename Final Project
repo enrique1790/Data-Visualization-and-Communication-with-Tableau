@@ -27,10 +27,10 @@ Outline:
 * The US by far has the highest amount of Dognition customers. California being the state with highest population of users is a
 market of high importance that cannot be overlooked.
 * Publicity did work in Oct 2014. Dognition was featured on "60 minuetes"
-* The "Free Start" promotion didn't work. less thann 6% of the users finshed it
+* The "Free Start" promotion didn't work. less than 6% of the users finshed it
 * The story behind the drop off rates reveal three trends: Occur when a subcategory test is completed rather than when a subcategory
 test is still in progress.
-* Empathy --> Communication --> Cunning Bar charts clearly reveal this drop off trend. 
+* Empathy --> Communication --> Cunning Bar charts clearly reveal a downward drop off trend. 
 * The drop off rate after test 20 reveals That The Complexity and Technicality of the games is so high that it discourages the users to
 continue on. (But will better traning and better explained videos be enough? at some point a personal trainer will be needed.)
 
@@ -39,18 +39,34 @@ Outline: (Identify growth opportunities)
 * Cites (top 3)
 * States (top 5)
 * Countries (#1 in the world)
-Summary:
 
-# Analysis Two: User Activity
-Outline:
+## Summary: insights from all three
+Cites: 
+
+States: 
+1# California is the state with the highest population of users. 
+2#
+3# 
+4#
+5#
+
+Country: 
+1# The US by far has the highest amount of Dognition customers in the world. 
+
+# Analysis Two: User Activity Outline: 
+* Sunday Customers play the most Dognition Games (prove with visualization)
+* At 7pm Dognition customers play the most amount of games (prove with visualization)
 
 Summary:
+* Recommendation: Dognition could send a notification to play the next game at around 7pm
 
 # Analysis Three: Analysis of publicity vs promotion
-Outline: (increasing completion rates)
-* Publicity (publicity did work)
-* Promotion (less than 6% of the users finished it)
-Summary:
+Outline: [increasing completion rates]
+*Dognition was featured on "60 minuets" in 2014
+* Free Start didn't work
+Summary: 
+Publicity (publicity did work) - prove with visualizaitons 
+Promotion (while enrolled in the free start program less than 6% of the users finished it) - prove with visualizations
 
 # Analysis Four: The story behind drop off rates in subcategories 
 Outline: (Three drop of trends)
@@ -58,10 +74,18 @@ subcategories: 3
 * Empathy
 * Communication
 * Cunning
+
 outcomes: 2
 * Test completed
 * Test still in progress
-Summary: Analysis of Completed vs tests still in progress
 
-
+Summary: Analysis of Tests in progress vs Test Completed
+* There are two outcomes: test completed and test stil in progress 
+* Tests are made up of subcategories
+* User subcategory Drop off rates mostly occur during the completed stage instead of in progress stage of the test.
+* Drop off rate after test 20 is significant: Perhaps The Complexity and Technicality of the games is so high that
+it discourages users to continue on.
+Recommendations:
+* Better training videos
+* Implement Achievement to keep users engaged
 
