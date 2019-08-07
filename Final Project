@@ -1,3 +1,32 @@
+## How to create a Story Presentation on Tableau
+* Click the New Story tab
+* In the lower-left corner of the screen, choose a size for your story. Choose from one of the predefined sizes, or set a custom size, in pixels:
+How to Create: https://help.tableau.com/current/pro/desktop/en-us/story_create.htm
+Tips: https://public.tableau.com/s/blog/2014/07/story-points-sizing-tips
+
+## Story Board (Motivating Context)
+*Big Picture
+*Details
+*Big Pictures
+
+*Part One* 
+Define the problem: Varying degree of user participation levels, a consistent trend of drop off test rates
+Smart Goal: Improve the completion rate of the first 20 test completed per subcriber by 10% over the next 3 months
+Recommendation: (suggest 3 recommendations)
+* Highlight Smart Goal Increase number of median test completed by 10% over the next 3 months)
+* Advertise to targeted cities 
+* Implement Achievement such as badges to keep subcribers engaged
+* Targeted Reminders (to Users at Specific Tests Where engagement drops the most)
+
+*Part two*
+Data Analysis: Goal is to paint a visual representation which shows the problem, 
+
+*Part three*
+* Make sure to review again Smart Goal and recommendations for the convience of your audience. 
+* Tie in important insights/discoveries from our data analysis which increases the confidence and credibility of my recommendations. 
+* As well as justify SmartGoal as a respectable benchmark to bring about business process change. 
+
+
 # Structure of Presentation: Should last about 4-5 minuets
 Have about 5 Slides:
 * One Recommendation Slide
@@ -7,7 +36,6 @@ Since the goal of this final project is to propose Business process changes. Bef
 data analysis  it's important to first come up with a list of recommendations first. 
 Your Data Analysis Examples must at mimium support your recommendations for this project. 
 
-### Recommendations & Smart Goal  
 
 # Recommendation 
 Outline: (suggest 3 recommendations)
@@ -16,9 +44,6 @@ Outline: (suggest 3 recommendations)
 * Implement Achievement such as badges to keep subcribers engaged
 * Targeted Reminders (to Users at Specific Tests Where engagement drops the most)
 
-# Smart Goal
-Outline:
-*Increase number of median test completed per subcriber by  10% over the next 6 months
 
 ### Data Analysis of Dognition 
 ## Coursework Facts from our data analysis 
@@ -91,27 +116,4 @@ Recommendations:
 * Implement Achievement to keep users engaged
 * get feedback from users why they drop out eye contac game in the empathy subcategory
 
-## How to create a Story Presentation on Tableau
-* Click the New Story tab
-* In the lower-left corner of the screen, choose a size for your story. Choose from one of the predefined sizes, or set a custom size, in pixels:
-How to Create: https://help.tableau.com/current/pro/desktop/en-us/story_create.htm
-Tips: https://public.tableau.com/s/blog/2014/07/story-points-sizing-tips
-
-## Story Board (Motivating Context)
-*Big Picture
-*Details
-*Big Pictures
-
-*Part One* 
-Define the problem: Varying degree of user participation levels, a consistent trend of drop off test rates
-Smart Goal:
-Recommendation: 
-
-*Part two*
-Data Analysis: Goal is to paint a visual representation which shows the problem, 
-
-*Part three*
-* Make sure to review again Smart Goal and recommendations for the convience of your audience. 
-* Tie in important insights/discoveries from our data analysis which increases the confidence and credibility of my recommendations. 
-* As well as justify SmartGoal as a respectable benchmark to bring about business process change. 
 
