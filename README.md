@@ -80,11 +80,12 @@
 4. Report your progress 
 5. Can work as a team
 
-### Data Visualizaiton
+## Data Visualizaiton
 * We can't automate business processes effectively unless we know what featurs of the world are important to incorporate into the predicitve algorithms we are using to automate those processes.
 * Figure out how to arrange data into a story that tells scientific truths that are so well understood that they oculd at least in theory be automated.
 * Visualizing data helps your figure out what your data means efficiently.
  
+ 
 **Why Tableau?**
 1. Uses visualization best practices and outputs graphs faster than other tools such as excel.
 2. Is made for big data
