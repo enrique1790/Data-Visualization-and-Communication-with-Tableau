@@ -80,6 +80,17 @@
 4. Report your progress 
 5. Can work as a team
 
+## Data Visualizaiton
+* We can't automate business processes effectively unless we know what featurs of the world are important to incorporate into the predicitve algorithms we are using to automate those processes.
+* Figure out how to arrange data into a story that tells scientific truths that are so well understood that they oculd at least in theory be automated.
+* Visualizing data helps your figure out what your data means efficiently.
+ 
+**Why Tableau?**
+1. Uses visualization best practices and outputs graphs faster than other tools such as excel.
+2. Is made for big data
+3. Easy to make Dashboards ( gives you a glance of key business metrics or indicators in real time)
+4. Dashboards are interactive allowing people from all over the company to play around with it.
+
 # Week 1 Outline
 [Week 1:](https://jbsbraindumpdatabase.wordpress.com/2015/12/23/week-1-data-visualization-and-communication-with-tableau/)
 
