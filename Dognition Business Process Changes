@@ -40,6 +40,7 @@ participation levels.
 the games. however for the strategy to be complete we still need to explore drop off rates. To have a complete picture of user behavior
 we need data that tells us the story behind low participation levels.
 
+Introduction: Finally we will analyse graphs inorder to get insight into user behavior during the personality test. 
 ## Drop Off Rates: Insight to user behavior 
 
 Graph 1: Free Start promotion was not successful
@@ -54,7 +55,11 @@ Graph 2: Percentage of completed Test: About 23% of their users complete 20 test
 
 Graph 3: Subcategoaries & Drop off rates: Eye Contact is the game where most dogs dropped off
 * In general, there is a decrease going from one subcategory to another subcategory. This overall trend reveals that users generally 
-drop after completing a subcategory.
+drop after completing a subcategory. this might suggest that it's challenging for dog owners to keep their pets engaged to complete 
+another subcategory, so the owner becomes discouraged from continuing on with the test. Also perhaps dogs have low attention spans
+therefore might need a break before moving on to a new subcategory.
+
+Introduction: now that we acquired better understanding behind user participation and drop off rates lets re-cap.
 
 ## Conclusion: How to increase user participation levels and improve the user experience during tests
 * Recommendation: Recap
